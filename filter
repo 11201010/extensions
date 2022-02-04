@@ -1,0 +1,108 @@
+! === productivity ===
+! --- Habitica ---
+habitica.com##.reward-items
+habitica.com##.gift-promo-banner
+habitica.com##.navbar
+habitica.com###app-header
+habitica.com##.btn-success.btn.diamond-btn.create-btn
+habitica.com##.notifications
+habitica.com##.drawer-container
+habitica.com##footer
+! --- HackMD ---
+! hackmd prime ad in hackmd home page
+hackmd.io##.sidenav-menu-link.cursor-pointer
+! hackmd prime ad in hackmd note
+hackmd.io##.announcement-trigger
+! --- web.kamihq.com ---
+web.kamihq.com##.premium-required
+web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
+! === IT ===
+! --- stackoverflow.com ---
+stackoverflow.com##.js-consent-banner
+! === med ===
+! www.journalofhospitalinfection.com
+www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
+www.journalofhospitalinfection.com##.ot-fade-in.onetrust-pc-dark-filter
+! === social media ===
+! --- Facebook ---
+! fb post hidden by extension 'social fixer for facebook'
+www.facebook.com##.sfx_filter_hidden_note
+! fb left sidebar > Watch
+www.facebook.com##a[href="https://www.facebook.com/watch/"]
+! fb right sidebar
+www.facebook.com##[data-pagelet="RightRail"]
+! remove pop-up chat
+www.facebook.com##[data-testid="mwchat-tab"]
+! fb top navbar
+www.facebook.com##li.h676nmdw
+! remove COVID-19 Survey from University of Maryland
+www.facebook.com##.sjgh65i0 > .k4urcfbm.l9j0dhe7.j83agx80 > .sbcfpzgs.stjgntxs.ni8dbmo4.k4urcfbm.nwvqtn77.fbipl8qg.m5lcvass.io0zqebd.hybvsw6c.du4w35lb.l9j0dhe7.rq0escxv > .k4urcfbm
+! --- YouTube ---
+! youtube left mini sidebar buttons
+www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
+www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(2)
+! youtube left sidebar > 1st section: Home, Explore, Subscriptions
+www.youtube.com##ytd-guide-section-renderer:nth-child(1)
+! youtube left sidebar > 3rd section: MORE FROM YOUTUBE
+www.youtube.com##ytd-guide-section-renderer:nth-child(3)
+! youtube related videos on right sidebar
+www.youtube.com###related
+! === news ===
+! --- bbc ---
+www.bbc.com##header>div:has-text(/cookies/i)
+! --- businessweekly ---
+www.businessweekly.com.tw##[class$="wrapper"]
+www.businessweekly.com.tw##[class*="Google"]
+! --- chinatimes ---
+www.chinatimes.com##.ad
+! --- cna ---
+www.cna.com.tw##.privacy-bar
+www.cna.com.tw##.SubscriptionInner
+! --- ettoday ---
+finance.ettoday.net##[class^="ad"]
+finance.ettoday.net##[id^="abp"]
+finance.ettoday.net##[id*="live"]
+www.ettoday.net##[class^="ad"]
+www.ettoday.net##[class$="notification"]
+www.ettoday.net##[id^=abp]
+www.ettoday.net##.video_frame
+www.ettoday.net##a:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|性侵|性愛|慾|淫|女優|妹|嬌|胸|裸|露點|不倫|電愛/)
+! --- ftvnews ---
+www.ftvnews.com.tw###Allow
+www.ftvnews.com.tw##[id*="gpt"]
+! --- ltn ---
+news.ltn.com.tw##[id|="hot"]
+news.ltn.com.tw##[id^="compass"]
+news.ltn.com.tw##[class^="idle"]
+news.ltn.com.tw##[class$="notification"]
+! --- msn ---
+www.msn.com##[class*="popup"]
+www.msn.com##.videojs
+www.msn.com##.videojsplayer
+www.msn.com##.normalsection
+www.msn.com##.filmstripouter
+! --- newtalk ---
+newtalk.tw##[class^="dable"]
+newtalk.tw##[class*="stream"]
+! --- setn ---
+www.setn.com##.privacy-area
+www.setn.com###linefriendModal
+www.setn.com##.modal-backdrop
+www.setn.com##.hidden-print
+! --- storm ---
+www.storm.mg##[data-addom*="ad"]
+www.storm.mg##.article_ads
+www.storm.mg##.side_bar_ads
+! --- tvbs ---
+news.tvbs.com.tw##[class^="ad"]
+news.tvbs.com.tw##[class^="cookie"]
+news.tvbs.com.tw##[class^="idle"]
+! --- udn ---
+udn.com##[id^="ads"]
+udn.com##[class$="idle"]
+udn.com##[class$="overlay"]
+udn.com##.ec-section
+udn.com##.feature-guess
+! --- yahoo ---
+tw.news.yahoo.com##.stream
+tw.news.yahoo.com##[id$="rightrailStories"]
