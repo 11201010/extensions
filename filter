@@ -58,6 +58,10 @@ www.chinatimes.com##.ad
 ! --- cna ---
 www.cna.com.tw##.privacy-bar
 www.cna.com.tw##.SubscriptionInner
+! --- cw ---
+www.cw.com.tw##.ad
+www.cw.com.tw##.bottombar.text-center
+www.cw.com.tw###cookie-bar
 ! --- ettoday ---
 finance.ettoday.net##[class^="ad"]
 finance.ettoday.net##[id^="abp"]
