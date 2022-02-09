@@ -101,6 +101,7 @@ www.storm.mg##.side_bar_ads
 news.tvbs.com.tw##[class^="ad"]
 news.tvbs.com.tw##[class^="cookie"]
 news.tvbs.com.tw##[class^="idle"]
+news.tvbs.com.tw##.web-push
 ! --- udn ---
 udn.com##[id^="ads"]
 udn.com##[class$="idle"]
