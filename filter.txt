@@ -79,7 +79,7 @@ news.ltn.com.tw##[id|="hot"]
 news.ltn.com.tw##[id^="compass"]
 news.ltn.com.tw##[class^="idle"]
 news.ltn.com.tw##[class$="notification"]
-health.ltn.com.tw##[class$="notification"]
+health.ltn.com.tw##.softPush_notification
 ! --- msn ---
 www.msn.com##[class*="popup"]
 www.msn.com##.videojs
