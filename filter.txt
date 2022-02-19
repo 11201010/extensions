@@ -58,6 +58,9 @@ www.chinatimes.com##.ad
 ! --- cna ---
 www.cna.com.tw##.privacy-bar
 www.cna.com.tw##.SubscriptionInner
+! --- crossing.cw.com.tw ---
+crossing.cw.com.tw##.alertBox
+crossing.cw.com.tw##.cookies
 ! --- cw ---
 www.cw.com.tw##.ad
 www.cw.com.tw##.bottombar.text-center
