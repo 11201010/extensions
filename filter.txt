@@ -41,6 +41,7 @@ www.facebook.com##.sjgh65i0 > .k4urcfbm.l9j0dhe7.j83agx80 > .sbcfpzgs.stjgntxs.n
 ! youtube left mini sidebar buttons
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(2)
+www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(3)
 ! youtube left sidebar > 1st section: Home, Explore, Subscriptions
 www.youtube.com##ytd-guide-section-renderer:nth-child(1)
 ! youtube left sidebar > 3rd section: MORE FROM YOUTUBE
