@@ -23,6 +23,11 @@ stackoverflow.com##.js-consent-banner
 ! www.journalofhospitalinfection.com
 www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
 www.journalofhospitalinfection.com##.ot-fade-in.onetrust-pc-dark-filter
+! === anime ===
+! --- webmota ---
+! 猜你喜歡
+www.webmota.com##.l-content:nth-of-type(2)
+www.webmota.com##.recommend-comics
 ! === social media ===
 ! --- Facebook ---
 ! fb post hidden by extension 'social fixer for facebook'
