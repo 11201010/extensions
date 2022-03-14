@@ -26,6 +26,7 @@ www.journalofhospitalinfection.com##.ot-fade-in.onetrust-pc-dark-filter
 ! === anime ===
 ! --- webmota ---
 ! 猜你喜歡
+www.baozimh.com##.l-content:nth-of-type(2)
 www.webmota.com##.l-content:nth-of-type(2)
 www.webmota.com##.recommend-comics
 ! === social media ===
