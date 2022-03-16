@@ -26,9 +26,8 @@ www.journalofhospitalinfection.com##.ot-fade-in.onetrust-pc-dark-filter
 ! === anime ===
 ! --- webmota ---
 ! 猜你喜歡
-www.baozimh.com##.l-content:nth-of-type(2)
-www.webmota.com##.l-content:nth-of-type(2)
-www.webmota.com##.recommend-comics
+www.baozimh.com,www.webmota.com##.l-content:nth-of-type(2)
+www.baozimh.com,www.webmota.com##.recommend-comics
 ! === social media ===
 ! --- Facebook ---
 ! fb post hidden by extension 'social fixer for facebook'
@@ -41,8 +40,8 @@ www.facebook.com##[data-pagelet="RightRail"]
 www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
 www.facebook.com##li.h676nmdw
-! remove COVID-19 Survey from University of Maryland
-www.facebook.com##.sjgh65i0 > .k4urcfbm.l9j0dhe7.j83agx80 > .sbcfpzgs.stjgntxs.ni8dbmo4.k4urcfbm.nwvqtn77.fbipl8qg.m5lcvass.io0zqebd.hybvsw6c.du4w35lb.l9j0dhe7.rq0escxv > .k4urcfbm
+! remove unappropriate search suggestion
+www.facebook.com##[role="option"]:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|性侵|性愛|慾|淫|美女|女優|妹|嬌|胸|裸|露點|不倫|電愛/)
 ! --- YouTube ---
 ! youtube left mini sidebar buttons
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
@@ -82,7 +81,7 @@ www.ettoday.net##[class^="ad"]
 www.ettoday.net##[class$="notification"]
 www.ettoday.net##[id^=abp]
 www.ettoday.net##.video_frame
-www.ettoday.net##a:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|性侵|性愛|慾|淫|女優|妹|嬌|胸|裸|露點|不倫|電愛/)
+www.ettoday.net##a:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|性侵|性愛|慾|淫|美女|女優|妹|嬌|胸|裸|露點|不倫|電愛/)
 ! --- ftvnews ---
 www.ftvnews.com.tw###Allow
 www.ftvnews.com.tw##[id*="gpt"]
