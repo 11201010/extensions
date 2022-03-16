@@ -54,6 +54,8 @@ www.youtube.com##ytd-guide-section-renderer:nth-child(1)
 www.youtube.com##ytd-guide-section-renderer:nth-child(3)
 ! youtube related videos on right sidebar
 www.youtube.com###related
+! remove 2nd to last youtube shorts
+www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! === news ===
 ! --- bbc ---
 www.bbc.com##header>div:has-text(/cookies/i)
