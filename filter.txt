@@ -79,6 +79,7 @@ www.cw.com.tw###cookie-bar
 finance.ettoday.net##[class^="ad"]
 finance.ettoday.net##[id^="abp"]
 finance.ettoday.net##[id*="live"]
+health.ettoday.net##[class*="hot"]
 www.ettoday.net##[class^="ad"]
 www.ettoday.net##[class$="notification"]
 www.ettoday.net##[id^=abp]
