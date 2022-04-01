@@ -25,8 +25,7 @@ www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
 www.journalofhospitalinfection.com##.ot-fade-in.onetrust-pc-dark-filter
 ! === anime ===
 ! --- webmota ---
-! 猜你喜歡
-www.baozimh.com,www.webmota.com##.l-content:nth-of-type(2)
+www.baozimh.com,www.webmota.com##div:has(> h3:has-text(猜你喜歡))
 www.baozimh.com,www.webmota.com##.recommend-comics
 ! === social media ===
 ! --- Facebook ---
