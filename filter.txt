@@ -19,6 +19,8 @@ web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami
 ! === IT ===
 ! --- stackoverflow.com ---
 stackoverflow.com##.js-consent-banner
+! --- ux.stackexchange.com ---
+ux.stackexchange.com##.js-consent-banner
 ! === med ===
 ! www.journalofhospitalinfection.com
 www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
@@ -111,6 +113,8 @@ www.setn.com##.hidden-print
 www.storm.mg##[data-addom*="ad"]
 www.storm.mg##.article_ads
 www.storm.mg##.side_bar_ads
+! --- theguardian ---
+www.theguardian.com##[id^="sp_message"]
 ! --- tvbs ---
 news.tvbs.com.tw##[class^="ad"]
 news.tvbs.com.tw##[class^="cookie"]
