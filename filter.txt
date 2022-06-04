@@ -2,6 +2,7 @@
 ! --- Habitica ---
 habitica.com##.reward-items
 habitica.com##.gift-promo-banner
+habitica.com##.smartbanner
 habitica.com##.navbar
 habitica.com###app-header
 habitica.com##.btn-success.btn.diamond-btn.create-btn
@@ -22,9 +23,11 @@ stackoverflow.com##.js-consent-banner
 ! --- ux.stackexchange.com ---
 ux.stackexchange.com##.js-consent-banner
 ! === med ===
-! www.journalofhospitalinfection.com
+! --- journalofhospitalinfection ---
 www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
 www.journalofhospitalinfection.com##.ot-fade-in.onetrust-pc-dark-filter
+! --- nature ---
+www.nature.com##.cc-banner
 ! === anime ===
 ! --- webmota ---
 www.baozimh.com,www.webmota.com##div:has(> h3:has-text(猜你喜歡))
@@ -58,6 +61,8 @@ www.youtube.com##ytd-guide-section-renderer:nth-child(3)
 www.youtube.com###related
 ! 2nd to last youtube shorts
 www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
+! live chat
+! www.youtube.com###chatframe
 ! === news ===
 ! --- bbc ---
 www.bbc.com##header>div:has-text(/cookies/i)
@@ -72,6 +77,8 @@ www.cna.com.tw##.SubscriptionInner
 ! --- crossing.cw.com.tw ---
 crossing.cw.com.tw##.alertBox
 crossing.cw.com.tw##.cookies
+! --- ctwant ---
+www.ctwant.com##.m-notification
 ! --- cw ---
 www.cw.com.tw##.ad
 www.cw.com.tw##.bottombar.text-center
