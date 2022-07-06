@@ -18,10 +18,8 @@ hackmd.io##.announcement-trigger
 web.kamihq.com##.premium-required
 web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
 ! === IT ===
-! --- stackoverflow.com ---
-stackoverflow.com##.js-consent-banner
-! --- ux.stackexchange.com ---
-ux.stackexchange.com##.js-consent-banner
+! --- stackexchange.com, stackoverflow.com ---
+stackexchange.com,stackoverflow.com##.js-consent-banner
 ! === med ===
 ! --- journalofhospitalinfection ---
 www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
@@ -138,3 +136,4 @@ udn.com##.wrapper-aside
 ! --- yahoo ---
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
+
