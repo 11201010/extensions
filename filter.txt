@@ -1,6 +1,7 @@
 ! === productivity ===
 ! --- Habitica ---
 habitica.com##.reward-items
+habitica.com##.reward-control
 habitica.com##.gift-promo-banner
 habitica.com##.smartbanner
 habitica.com##.navbar
@@ -110,6 +111,8 @@ www.msn.com##.filmstripouter
 ! --- newtalk ---
 newtalk.tw##[class^="dable"]
 newtalk.tw##[class*="stream"]
+! --- ntdtv ---
+www.ntdtv.com###ad_roadblock
 ! --- setn ---
 www.setn.com##.privacy-area
 www.setn.com###linefriendModal
