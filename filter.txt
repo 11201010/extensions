@@ -39,11 +39,11 @@ www.facebook.com##.sfx_filter_hidden_note
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
 ! fb right sidebar
-www.facebook.com##[data-pagelet="RightRail"]
+www.facebook.com##[role="complementary"] [data-visualcompletion="ignore-dynamic"]
 ! pop-up chat
 www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
-www.facebook.com##li.h676nmdw
+www.facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
 ! COVID-19 Survey from the University of Maryland
 www.facebook.com##div:has(>:has(>:has(>:has(>[href="/survey/?session=3161854580752810"]))))
 ! remove unappropriate search suggestion
@@ -139,4 +139,3 @@ udn.com##.wrapper-aside
 ! --- yahoo ---
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
-
