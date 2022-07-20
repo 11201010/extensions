@@ -40,6 +40,7 @@ www.facebook.com##.sfx_filter_hidden_note
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
 ! fb right sidebar
 www.facebook.com##[role="complementary"] [data-visualcompletion="ignore-dynamic"]
+www.facebook.com##[role="complementary"] div.cxgpxx05
 ! pop-up chat
 www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
@@ -139,3 +140,4 @@ udn.com##.wrapper-aside
 ! --- yahoo ---
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
+
