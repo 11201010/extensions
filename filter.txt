@@ -42,7 +42,7 @@ www.facebook.com##a[href="https://www.facebook.com/watch/"]
 www.facebook.com##[role="complementary"] [data-visualcompletion="ignore-dynamic"]
 ! fb sponsored posts
 www.facebook.com##[role="complementary"] div.cxgpxx05
-www.facebook.com##[role=feed] span[id]>span[class]:first-child+span:not([class]) a[href^="?__cft__[0]="][href*="&__tn__=%2CP-R"]:upward([role=feed]>div)
+www.facebook.com##[role=feed] span[id]>span[class]:first-child+span:not([class]) a[href^="?__cft__[0]="][href*="&__tn__=%2CP-R"]:upward([role=feed]>div, [role=feed]>span)
 ! pop-up chat
 www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
@@ -100,11 +100,11 @@ www.ettoday.net##a:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|不�
 www.ftvnews.com.tw###Allow
 www.ftvnews.com.tw##[id*="gpt"]
 ! --- ltn ---
-news.ltn.com.tw##[id|="hot"]
-news.ltn.com.tw##[id^="compass"]
-news.ltn.com.tw##[class^="idle"]
-news.ltn.com.tw##[class$="notification"]
-health.ltn.com.tw##.softPush_notification
+ltn.com.tw##[id|="hot"]
+ltn.com.tw##[id^="compass"]
+ltn.com.tw##[class^="idle"]
+ltn.com.tw##[class$="notification"]
+ltn.com.tw##.softPush_notification
 ! --- msn ---
 www.msn.com##[class*="popup"]
 www.msn.com##.videojs
@@ -142,3 +142,4 @@ udn.com##.wrapper-aside
 ! --- yahoo ---
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
+
