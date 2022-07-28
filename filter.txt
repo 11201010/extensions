@@ -32,6 +32,7 @@ www.nature.com##.cc-banner
 www.baozimh.com,www.webmota.com##div:has(> h3:has-text(猜你喜歡))
 www.baozimh.com,www.webmota.com##.recommend-comics
 www.baozimh.com,www.webmota.com##ins[class="adPushupAds"]+div
+www.baozimh.com,www.webmota.com##[class*="adhost"]
 ! === social media ===
 ! --- Facebook ---
 ! fb post hidden by extension 'social fixer for facebook'
