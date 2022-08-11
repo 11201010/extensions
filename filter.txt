@@ -96,6 +96,7 @@ www.ettoday.net##[class^="ad"]
 www.ettoday.net##[class$="notification"]
 www.ettoday.net##[id^=abp]
 www.ettoday.net##.video_frame
+www.ettoday.net##.clearfix.part_thumb_1
 www.ettoday.net##a:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|不倫|雙性戀|慾|淫|嬌|妻|美女|女優|她|媽|婚|婿|妹|性奴|胸|裸|四腳獸|性愛|性侵|露點|露鳥|電愛|出軌/)
 ! --- ftvnews ---
 www.ftvnews.com.tw###Allow
