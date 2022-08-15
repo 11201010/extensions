@@ -144,4 +144,5 @@ udn.com##.wrapper-aside
 ! --- yahoo ---
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
+tw.news.yahoo.com##.sticky-sda
 
