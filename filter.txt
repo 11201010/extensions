@@ -141,6 +141,7 @@ udn.com##[class$="overlay"]
 udn.com##.ec-section
 udn.com##.feature-guess
 udn.com##.wrapper-aside
+money.udn.com##[class*="ads"]
 ! --- yahoo ---
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
