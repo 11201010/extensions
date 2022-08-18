@@ -43,7 +43,7 @@ www.facebook.com##a[href="https://www.facebook.com/watch/"]
 www.facebook.com##[role="complementary"] [data-visualcompletion="ignore-dynamic"]
 ! fb sponsored posts
 www.facebook.com##[role="complementary"] div.cxgpxx05
-www.facebook.com##[role=feed] span[id]>span[class]:first-child+span:not([class]) a[href^="?__cft__[0]="][href*="&__tn__=%2CP-R"]:upward([role=feed]>div, [role=feed]>span)
+www.facebook.com##[role="feed"] [role="article"] > div > div > div > div > div > div > div > div > div > div > div > div > span > span a[href*="ads"]:upward([role="article"])
 ! pop-up chat
 www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
@@ -75,6 +75,7 @@ www.businessweekly.com.tw##[class$="wrapper"]
 www.businessweekly.com.tw##[class*="Google"]
 ! --- chinatimes ---
 www.chinatimes.com##.ad
+www.chinatimes.com##.custom-embeded-code
 ! --- cna ---
 www.cna.com.tw##.privacy-bar
 www.cna.com.tw##.SubscriptionInner
