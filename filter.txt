@@ -1,3 +1,5 @@
+! === regex filter for all domain ===
+*##a,li:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|不倫|雙性戀|慾|淫|嬌|妻|女友|女同|美女|女優|她|媽|婚|婿|妹|性奴|奶頭|胸|裸|四腳獸|性愛|性侵|露點|露鳥|電愛|出軌/)
 ! === productivity ===
 ! --- Habitica ---
 habitica.com##.reward-items
@@ -50,8 +52,6 @@ www.facebook.com##[data-testid="mwchat-tab"]
 www.facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
 ! COVID-19 Survey from the University of Maryland
 www.facebook.com##div:has(>:has(>:has(>:has(>[href="/survey/?session=3161854580752810"]))))
-! remove unappropriate search suggestion
-www.facebook.com##[role="option"]:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|不倫|雙性戀|慾|淫|嬌|妻|女友|美女|女優|她|媽|婚|婿|妹|性奴|胸|裸|四腳獸|性愛|性侵|露點|露鳥|電愛|出軌/)
 ! --- YouTube ---
 ! youtube left mini sidebar buttons
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
@@ -98,7 +98,6 @@ www.ettoday.net##[class$="notification"]
 www.ettoday.net##[id^=abp]
 www.ettoday.net##.video_frame
 www.ettoday.net##.clearfix.part_thumb_1
-www.ettoday.net##a:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|不倫|雙性戀|慾|淫|嬌|妻|女友|美女|女優|她|媽|婚|婿|妹|性奴|胸|裸|四腳獸|性愛|性侵|露點|露鳥|電愛|出軌/)
 ! --- ftvnews ---
 www.ftvnews.com.tw###Allow
 www.ftvnews.com.tw##[id*="gpt"]
@@ -147,5 +146,4 @@ money.udn.com##[class*="ads"]
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
-tw.news.yahoo.com##a:has-text(/AV|A片|一夜情|情趣|私密|下體|私處|不倫|雙性戀|慾|淫|嬌|妻|女友|美女|女優|她|媽|婚|婿|妹|性奴|胸|裸|四腳獸|性愛|性侵|露點|露鳥|電愛|出軌/)
 
