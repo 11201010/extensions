@@ -1,5 +1,5 @@
 ! === regex filter for all domain ===
-*##a,li,ytd-comment-renderer,yt-live-chat-text-message-renderer,ytd-playlist-renderer,ytd-video-renderer:has-text(/A(V女|片)|成人|三(級|级)|倫理(片|電影)|一夜情|情趣|私密|下體|私處|不倫|雙性戀|慾|淫|嬌|妻|女友|炮友|女同|美女|女優|她|媽|婚|婿|妹|性奴|奶頭|胸|裸|四腳獸|性愛|性侵|露點|露鳥|電愛|出軌|blondine|erotic|naked|nude|sex|𝗦𝗘𝗫|𝙨𝙚𝙭|🔞/i)
+*##a,li,ytd-comment-renderer,yt-live-chat-text-message-renderer,ytd-playlist-renderer,ytd-video-renderer:has-text(/A片|成人|三(級|级)|倫理(片|電影)|一夜情|情趣|私(密|處)|下體|不倫|雙性戀|慾|淫|嬌|妻|炮友|女(友|同|優)|美女|她|媽|婚|婿|妹|奶頭|[^(雞|鴨)]胸|裸|四腳獸|性(奴|愛|侵)|露(點|鳥)|電愛|出軌|🔞|blondine|erotic|j?(\s|\.)?a(\s|\.)?v[^\w]|naked|nude|sex|𝗦𝗘𝗫|𝙨𝙚𝙭/i)
 ! === productivity ===
 ! --- Habitica ---
 habitica.com##.reward-items
