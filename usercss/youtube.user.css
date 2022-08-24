@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name        YouTube
+@namespace   11201010
+@version     1.2.1
+@updateURL   https://github.com/11201010/usercss/raw/main/youtube.user.css
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+	*,
+	ytd-grid-video-renderer
+		#video-title.yt-simple-endpoint.ytd-grid-video-renderer,
+	#content-text.ytd-comment-renderer,
+	.message.ytd-notification-renderer {
+		font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma,
+			sans-serif;
+	}
+	h1.ytd-watch-metadata,
+	.title.ytd-video-primary-info-renderer {
+		display: block;
+		max-height: none;
+		text-align: justify;
+	}
+	yt-formatted-string.ytd-text-inline-expander:nth-child(1)
+		> span:nth-child(5) {
+		display: block;
+	}
+	ytd-watch-metadata[flex-menu-enabled]
+		#actions.ytd-watch-metadata
+		ytd-menu-renderer.ytd-watch-metadata {
+		justify-content: space-between;
+	}
+}
