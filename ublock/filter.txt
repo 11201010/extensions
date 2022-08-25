@@ -49,7 +49,7 @@ www.facebook.com##a[href="https://www.facebook.com/watch/"]
 ! fb right sidebar
 www.facebook.com##[role="complementary"] [data-visualcompletion="ignore-dynamic"]
 ! fb sponsored posts
-www.facebook.com##[role="complementary"] > div
+www.facebook.com##span:has-text(Sponsored):upward(div)
 www.facebook.com##[role="feed"] [role="article"] > div > div > div > div > div > div > div > div > div > div > div > div > span > span a[href*="ads"]:upward([role="article"])
 ! pop-up chat
 www.facebook.com##[data-testid="mwchat-tab"]
