@@ -89,6 +89,8 @@ crossing.cw.com.tw##.alertBox
 crossing.cw.com.tw##.cookies
 ! --- ctwant ---
 www.ctwant.com##.m-notification
+www.ctwant.com##[class*="l-ad"]
+www.ctwant.com###_popIn_recommend
 ! --- cw ---
 www.cw.com.tw##.ad
 www.cw.com.tw##.bottombar.text-center
