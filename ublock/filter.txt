@@ -57,6 +57,8 @@ www.facebook.com##[data-testid="mwchat-tab"]
 www.facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
 ! COVID-19 Survey from the University of Maryland
 www.facebook.com##div:has(>:has(>:has(>:has(>[href="/survey/?session=3161854580752810"]))))
+! --- sina ---
+blog.sina.com.cn##[class*="sinaad"]
 ! --- YouTube ---
 ! youtube left mini sidebar buttons
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
