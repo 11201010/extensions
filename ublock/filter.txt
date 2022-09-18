@@ -146,12 +146,13 @@ news.tvbs.com.tw##[class^="idle"]
 news.tvbs.com.tw##.web-push
 ! --- udn ---
 udn.com##[id^="ads"]
+udn.com##[class*="edn-ads"]
 udn.com##[class$="idle"]
 udn.com##[class$="overlay"]
+udn.com##[class*="banner"]
 udn.com##.ec-section
 udn.com##.feature-guess
 udn.com##.wrapper-aside
-money.udn.com##[class*="ads"]
 ! --- yahoo ---
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
