@@ -78,6 +78,9 @@ www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! === news ===
 ! --- bbc ---
 www.bbc.com##header>div:has-text(/cookies/i)
+! --- businesstoday ---
+www.businesstoday.com.tw###showNext
+www.businesstoday.com.tw##.article__mainevent
 ! --- businessweekly ---
 www.businessweekly.com.tw##[class$="wrapper"]
 www.businessweekly.com.tw##[class*="Google"]
