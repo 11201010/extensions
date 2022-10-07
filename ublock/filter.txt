@@ -120,6 +120,8 @@ ltn.com.tw##[id^="compass"]
 ltn.com.tw##[class^="idle"]
 ltn.com.tw##[class$="notification"]
 ltn.com.tw##.softPush_notification
+! --- mobile01 ---
+mobile01.com##[aria-label*="cookie"]
 ! --- msn ---
 www.msn.com##[class*="popup"]
 www.msn.com##.videojs
