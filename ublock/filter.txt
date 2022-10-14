@@ -43,20 +43,16 @@ baozimh.com,webmota.com##[class*="adhost"]
 baozimh.com,webmota.com###bottom, #bottom+div
 ! === social media ===
 ! --- Facebook ---
-! fb post hidden by extension 'social fixer for facebook'
-www.facebook.com##.sfx_filter_hidden_note
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
 ! fb right sidebar
-www.facebook.com##[role="complementary"] [data-visualcompletion="ignore-dynamic"]
+www.facebook.com##span:has-text(/sponsored/i)
 ! fb sponsored posts
 www.facebook.com##a[href*="ads"]:upward(10)
 ! pop-up chat
 www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
 www.facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
-! COVID-19 Survey from the University of Maryland
-www.facebook.com##div:has(>:has(>:has(>:has(>[href="/survey/?session=3161854580752810"]))))
 ! --- sina ---
 blog.sina.com.cn##[class*="sinaad"]
 ! --- YouTube ---
