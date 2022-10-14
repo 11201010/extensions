@@ -45,9 +45,9 @@ baozimh.com,webmota.com###bottom, #bottom+div
 ! --- Facebook ---
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
-! fb right sidebar
+! fb right sidebar sponsored ads
 www.facebook.com##span:has-text(/sponsored/i)
-! fb sponsored posts
+! fb feed sponsored posts
 www.facebook.com##a[href*="ads"]:upward(10)
 ! pop-up chat
 www.facebook.com##[data-testid="mwchat-tab"]
