@@ -41,12 +41,13 @@ baozimh.com,webmota.com##div.l-content > .recommend-comics
 baozimh.com,webmota.com##ins[class="adPushupAds"]+div
 baozimh.com,webmota.com##[class*="adhost"]
 baozimh.com,webmota.com###bottom, #bottom+div
+baozimh.com,webmota.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- Facebook ---
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
 ! fb right sidebar sponsored ads
-www.facebook.com##span:has-text(/sponsored/i)
+!www.facebook.com##span:has-text(/sponsored/i)
 ! fb feed sponsored posts
 www.facebook.com##a[href*="ads"]:upward(10)
 ! pop-up chat
@@ -157,4 +158,3 @@ udn.com##.wrapper-aside
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
-
