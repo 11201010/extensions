@@ -15,6 +15,7 @@ habitica.com##.btn-success.btn.diamond-btn.create-btn
 habitica.com##.notifications
 habitica.com##.drawer-container
 habitica.com##footer
+habitica.com##.habitica-top-banner
 ! --- HackMD ---
 ! hackmd prime ad in hackmd home page
 hackmd.io##.sidenav-menu-link.cursor-pointer
@@ -158,3 +159,4 @@ udn.com##.wrapper-aside
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
+
