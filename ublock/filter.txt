@@ -44,6 +44,8 @@ baozimh.com,webmota.com##[class*="adhost"]
 baozimh.com,webmota.com###bottom, #bottom+div
 baozimh.com,webmota.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
+! --- bilibili ---
+www.bilibili.com##.bpx-player-toast-item
 ! --- Facebook ---
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
@@ -99,15 +101,13 @@ www.cw.com.tw##.ad
 www.cw.com.tw##.bottombar.text-center
 www.cw.com.tw###cookie-bar
 ! --- ettoday ---
-finance.ettoday.net##[class^="ad"]
-finance.ettoday.net##[id^="abp"]
-finance.ettoday.net##[id*="live"]
-health.ettoday.net##[class*="hot"]
-www.ettoday.net##[class^="ad"]
-www.ettoday.net##[class$="notification"]
-www.ettoday.net##[id^=abp]
-www.ettoday.net##.video_frame
-www.ettoday.net##.clearfix.part_thumb_1
+ettoday.net##[id^="abp"]
+ettoday.net##[id*="live"]
+ettoday.net##[class^="ad"]
+ettoday.net##[class$="notification"]
+ettoday.net##[id^=abp]
+ettoday.net##.video_frame
+ettoday.net##.clearfix.part_thumb_1
 ! --- ftvnews ---
 www.ftvnews.com.tw###Allow
 www.ftvnews.com.tw##[id*="gpt"]
@@ -159,4 +159,5 @@ udn.com##.wrapper-aside
 tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
+tw.news.yahoo.com###module-mktBanner
 
