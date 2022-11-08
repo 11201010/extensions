@@ -39,6 +39,7 @@ www.nature.com##.cc-banner
 ! --- webmota ---
 baozimh.com,webmota.com##ul[class*="recommend"]:upward(div[class*="content"])
 baozimh.com,webmota.com##.l-box:has(.related-cartoons)
+baozimh.com,webmota.com##.l-content:has(.recommend-comics)
 baozimh.com,webmota.com##ins[class="adPushupAds"]+div
 baozimh.com,webmota.com##[class*="adhost"]
 baozimh.com,webmota.com###bottom, #bottom+div
