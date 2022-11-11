@@ -48,6 +48,7 @@ baozimh.com,webmota.com##.comic-contain > div:nth-of-type(2):style(background-co
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bpx-player-toast-item
+www.bilibili.com##.login-tip
 ! --- Facebook ---
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
