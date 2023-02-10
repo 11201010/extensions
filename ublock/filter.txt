@@ -38,13 +38,11 @@ www.nature.com##.cc-banner
 ! === anime ===
 ! --- webmota ---
 baozimh.com,webmota.com##amp-addthis
-baozimh.com,webmota.com##ul[class*="recommend"]:upward(div[class*="content"])
-baozimh.com,webmota.com##.l-box:has(.related-cartoons)
+baozimh.com,kukuc.co,webmota.com##.l-box:has(.related-cartoons):upward(1)
 baozimh.com,webmota.com##.l-content:has(.recommend-comics)
-baozimh.com,webmota.com##ins[class="adPushupAds"]+div
-baozimh.com,webmota.com##[class*="adhost"]
-baozimh.com,webmota.com###bottom, #bottom+div
-baozimh.com,webmota.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
+kukuc.co,webmota.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
+kukuc.co,webmota.com##[class*="adhost"]:upward(1)
+kukuc.co,webmota.com###bottom, #bottom+div
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bpx-player-toast-item
@@ -57,9 +55,9 @@ www.facebook.com##a[href="https://www.facebook.com/watch/"]
 ! fb right sidebar sponsored ads
 !www.facebook.com##span:has-text(/sponsored/i)
 ! fb feed sponsored posts
-www.facebook.com##a[href*="ads"]:upward(10)
+!www.facebook.com##a[href*="ads"]:upward(10)
 ! pop-up chat
-www.facebook.com##[data-testid="mwchat-tab"]
+!www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
 www.facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
 ! --- sina ---
