@@ -148,6 +148,7 @@ www.theguardian.com##[id^="sp_message"]
 news.tvbs.com.tw##[class^="ad"]
 news.tvbs.com.tw##[class^="cookie"]
 news.tvbs.com.tw##[class^="idle"]
+news.tvbs.com.tw##.time_limit
 news.tvbs.com.tw##.web-push
 ! --- udn ---
 udn.com##[id^="ads"]
