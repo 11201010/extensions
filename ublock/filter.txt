@@ -24,9 +24,13 @@ hackmd.io##.announcement-trigger
 ! --- web.kamihq.com ---
 web.kamihq.com##.premium-required
 web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
-! === IT ===
-! --- stackexchange.com, stackoverflow.com ---
+! === Q&A sites ===
+! --- stackexchange, stackoverflow ---
 stackexchange.com,stackoverflow.com##.js-consent-banner
+! --- zhihu ---
+zhihu.com##.Modal-wrapper
+zhihu.com##.itcauecng:style(overflow: scroll !important)
+zhihu.com##[style*="z-index:"]
 ! === med ===
 ! --- journalofhospitalinfection ---
 www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
