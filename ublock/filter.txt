@@ -118,6 +118,8 @@ ettoday.net##.clearfix.part_thumb_1
 ! --- ftvnews ---
 www.ftvnews.com.tw###Allow
 www.ftvnews.com.tw##[id*="gpt"]
+! --- hk01 ---
+www.hk01.com###leaderboard:upward(1)
 ! --- ltn ---
 ltn.com.tw##[id|="hot"]
 ltn.com.tw##[id^="compass"]
