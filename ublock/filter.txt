@@ -56,6 +56,7 @@ www.bilibili.com##.ad-report
 www.bilibili.com##.video-ad-creative-card 
 ! --- Facebook ---
 facebook.com##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
+facebook.com##*:style(line-height: 1.6rem !important)
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
 ! pop-up chat
