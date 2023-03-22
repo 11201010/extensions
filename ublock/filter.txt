@@ -3,7 +3,6 @@
 ! === allow text selection to all URLs
 *##+js(ra, oncontextmenu|onselectstart|ondragstart)
 *##*:style(user-select:text!important)
-!*##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 ! === productivity ===
 ! --- Habitica ---
 habitica.com##.reward-items
@@ -56,12 +55,9 @@ www.bilibili.com##.login-tip
 www.bilibili.com##.ad-report
 www.bilibili.com##.video-ad-creative-card 
 ! --- Facebook ---
+facebook.com##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 ! fb left sidebar > Watch
 www.facebook.com##a[href="https://www.facebook.com/watch/"]
-! fb right sidebar sponsored ads
-!www.facebook.com##span:has-text(/sponsored/i)
-! fb feed sponsored posts
-!www.facebook.com##a[href*="ads"]:upward(10)
 ! pop-up chat
 !www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
@@ -69,6 +65,7 @@ www.facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
 ! --- sina ---
 blog.sina.com.cn##[class*="sinaad"]
 ! --- YouTube ---
+youtube.com##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 ! youtube left mini sidebar buttons
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(2)
