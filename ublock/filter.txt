@@ -3,6 +3,7 @@
 ! === allow text selection to all URLs
 *##+js(ra, oncontextmenu|onselectstart|ondragstart)
 *##*:style(user-select:text!important)
+*##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 ! === productivity ===
 ! --- Habitica ---
 habitica.com##.reward-items
@@ -49,6 +50,7 @@ kukuc.co,webmota.com##[class*="adhost"]:upward(1)
 kukuc.co,webmota.com###bottom, #bottom+div
 ! === social media ===
 ! --- bilibili ---
+www.bilibili.com##.bili-mini-mask
 www.bilibili.com##.bpx-player-toast-item
 www.bilibili.com##.login-tip
 www.bilibili.com##.ad-report
