@@ -3,41 +3,6 @@
     "createdAt": "2022-08-24T18:02:10.152Z",
     "redirects": [
         {
-            "description": "regex domain filter",
-            "exampleUrl": "https://www.xx.com/",
-            "exampleResult": "https://www.youtube.com/playlist?list=PLBRwTjdQvc2wqhPjelozYaTeuVLfXi6vB",
-            "error": null,
-            "includePattern": "([^a-i,k-z]j?(\\s|\\.)?a(\\s|\\.)?v[^\\w]|blondine|cam[^\\w]|erotic|j(able|k)|n(aked|ude)|s((\\s|\\.)?e(\\s|\\.)?x|trip)|xx).*\\.",
-            "excludePattern": "",
-            "patternDesc": "",
-            "redirectUrl": "https://www.youtube.com/playlist?list=PLBRwTjdQvc2wqhPjelozYaTeuVLfXi6vB",
-            "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "regex search filter",
-            "exampleUrl": "www.google.com/search?q=xx",
-            "exampleResult": "https://www.youtube.com/playlist?list=PLBRwTjdQvc2wqhPjelozYaTeuVLfXi6vB",
-            "error": null,
-            "includePattern": "search.*([^a-i,k-z]j?(\\s|\\.)?a(\\s|\\.)?v[^\\w]|blondine|cam[^\\w]|erotic|j(able|k)|n(aked|ude)|s((\\s|\\.)?e(\\s|\\.)?x|trip)|xx)",
-            "excludePattern": "",
-            "patternDesc": "",
-            "redirectUrl": "https://www.youtube.com/playlist?list=PLBRwTjdQvc2wqhPjelozYaTeuVLfXi6vB",
-            "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame",
-                "history"
-            ]
-        },
-        {
             "description": "youtube homepage to subscriptions",
             "exampleUrl": "https://www.youtube.com/",
             "exampleResult": "https://www.youtube.com/feed/subscriptions",
@@ -71,23 +36,6 @@
             "appliesTo": [
                 "main_frame",
                 "history"
-            ]
-        },
-        {
-            "description": "Example redirect, try going to http://example.com/anywordhere",
-            "exampleUrl": "http://example.com/some-word-that-matches-wildcard",
-            "exampleResult": "https://google.com/search?q=some-word-that-matches-wildcard",
-            "error": null,
-            "includePattern": "http://example.com/*",
-            "excludePattern": "",
-            "patternDesc": "Any word after example.com leads to google search for that word.",
-            "redirectUrl": "https://google.com/search?q=$1",
-            "patternType": "W",
-            "processMatches": "noProcessing",
-            "disabled": true,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
             ]
         }
     ]
