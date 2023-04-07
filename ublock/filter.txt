@@ -3,7 +3,7 @@
 ! === allow text selection to all URLs
 *##+js(ra, oncontextmenu|onselectstart|ondragstart)
 *##*:style(user-select:text !important)
-*##body:style(overflow: scroll !important)
+*##bodyarticle-main:style(overflow: scroll !important)
 ! === productivity ===
 ! --- Habitica ---
 habitica.com##.reward-items
