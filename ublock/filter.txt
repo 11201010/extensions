@@ -3,7 +3,6 @@
 ! === allow text selection to all URLs
 *##+js(ra, oncontextmenu|onselectstart|ondragstart)
 *##*:style(user-select:text !important)
-*##bodyarticle-main:style(overflow: scroll !important)
 ! === productivity ===
 ! --- Habitica ---
 habitica.com##.reward-items
@@ -140,6 +139,11 @@ newtalk.tw##[class^="dable"]
 newtalk.tw##[class*="stream"]
 ! --- ntdtv ---
 www.ntdtv.com###ad_roadblock
+! --- pixnet ---
+*##body#article-main:style(overflow: scroll !important)
+*###ad-full-page
+! remove PIXNET MIB(MONEY IN BLOG)部落格廣告分潤計劃
+*##[class*="mib-ad"]
 ! --- setn ---
 www.setn.com##.privacy-area
 www.setn.com###linefriendModal
