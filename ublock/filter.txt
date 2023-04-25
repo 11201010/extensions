@@ -46,6 +46,7 @@ baozimh.com,kukuc.co,webmota.com##.l-box:has(.related-cartoons):upward(1)
 baozimh.com,webmota.com##.l-content:has(.recommend-comics)
 kukuc.co,webmota.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 kukuc.co,webmota.com##[class*="adhost"]:upward(1)
+kukuc.co,webmota.com##.div_close_ads:upward(1)
 kukuc.co,webmota.com###bottom, #bottom+div
 ! === social media ===
 ! --- bilibili ---
