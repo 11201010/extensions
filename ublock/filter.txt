@@ -25,6 +25,8 @@ hackmd.io##.announcement-trigger
 web.kamihq.com##.premium-required
 web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
 ! === Q&A sites ===
+! --- jianshu ---
+www.jianshu.com##[title*="广告"]:upward(1)
 ! --- stackexchange, stackoverflow ---
 stackexchange.com,stackoverflow.com##.js-consent-banner
 ! --- zhihu ---
@@ -41,13 +43,18 @@ www.nature.com##.cc-banner
 ||epaper.ntuh.gov.tw/health/201508/Scripts/RightClick.js$script,domain=epaper.ntuh.gov.tw
 ! === anime ===
 ! --- webmota ---
-baozimh.com,webmota.com##amp-addthis
-baozimh.com,kukuc.co,webmota.com##.l-box:has(.related-cartoons):upward(1)
-baozimh.com,webmota.com##.l-content:has(.recommend-comics)
-kukuc.co,webmota.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
-kukuc.co,webmota.com##[class*="adhost"]:upward(1)
-kukuc.co,webmota.com##.div_close_ads:upward(1)
-kukuc.co,webmota.com###bottom, #bottom+div
+! remove recommend comics
+baozimh.com,webmota.com,kukuc.co##.recommend:upward(1)
+! in home page remove fixed ad
+baozimh.com,webmota.com##[data-widget-type="floating"]
+! in chapter page: kukuc.co
+! - remove ad
+kukuc.co##.div_close_ads:upward(1)
+kukuc.co##.div_adhost:upward(1)
+kukuc.co###bottom
+kukuc.co###bottom+div
+! - set 1st page to 1px
+kukuc.co##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bili-mini-mask
@@ -55,6 +62,7 @@ www.bilibili.com##.bpx-player-toast-item
 www.bilibili.com##.login-tip
 www.bilibili.com##.ad-report
 www.bilibili.com##.video-ad-creative-card 
+www.bilibili.com##[class*="login"]
 ! --- Facebook ---
 facebook.com##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 facebook.com##*:style(line-height: 1.6rem !important)
@@ -94,6 +102,8 @@ www.businessweekly.com.tw##[class*="Google"]
 ! --- chinatimes ---
 www.chinatimes.com##.ad
 www.chinatimes.com##.custom-embeded-code
+! --- commonhealth ---
+www.commonhealth.com.tw##.ad
 ! --- cna ---
 www.cna.com.tw##.privacy-bar
 www.cna.com.tw##.SubscriptionInner
