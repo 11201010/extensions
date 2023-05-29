@@ -40,7 +40,7 @@ www.journalofhospitalinfection.com##.ot-fade-in.onetrust-pc-dark-filter
 ! --- nature ---
 www.nature.com##.cc-banner
 ! --- ntuh ---
-||epaper.ntuh.gov.tw/health/201508/Scripts/RightClick.js$script,domain=epaper.ntuh.gov.tw
+||epaper.ntuh.gov.tw/health/$script,domain=epaper.ntuh.gov.tw
 ! === anime ===
 ! --- webmota ---
 ! remove recommend comics
