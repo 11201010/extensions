@@ -25,14 +25,23 @@ hackmd.io##.announcement-trigger
 web.kamihq.com##.premium-required
 web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
 ! === Q&A sites ===
-! --- jianshu ---
-www.jianshu.com##[title*="广告"]:upward(1)
 ! --- stackexchange, stackoverflow ---
 stackexchange.com,stackoverflow.com##.js-consent-banner
 ! --- zhihu ---
 zhihu.com##.Modal-wrapper
 zhihu.com##.itcauecng:style(overflow: scroll !important)
 zhihu.com##[style*="z-index:"]
+! === blog ===
+! --- csdn ---
+blog.csdn.net##.passport-login-mark
+blog.csdn.net##.passport-login-container
+! --- jianshu ---
+www.jianshu.com##[src*="chuzushijian"]:upward(1)
+! --- pixnet ---
+*##body#article-main:style(overflow: scroll !important)
+*###ad-full-page
+! remove PIXNET MIB(MONEY IN BLOG)部落格廣告分潤計劃
+*##[class*="mib-ad"]
 ! === med ===
 ! --- journalofhospitalinfection ---
 www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
@@ -100,6 +109,8 @@ www.businesstoday.com.tw##.article__mainevent
 ! --- businessweekly ---
 www.businessweekly.com.tw##[class$="wrapper"]
 www.businessweekly.com.tw##[class*="Google"]
+! --- ctee ---
+ctee.com.tw##[id^="ad"]
 ! --- chinatimes ---
 www.chinatimes.com##.ad
 www.chinatimes.com##.custom-embeded-code
@@ -151,11 +162,6 @@ newtalk.tw##[class^="dable"]
 newtalk.tw##[class*="stream"]
 ! --- ntdtv ---
 www.ntdtv.com###ad_roadblock
-! --- pixnet ---
-*##body#article-main:style(overflow: scroll !important)
-*###ad-full-page
-! remove PIXNET MIB(MONEY IN BLOG)部落格廣告分潤計劃
-*##[class*="mib-ad"]
 ! --- setn ---
 www.setn.com##.privacy-area
 www.setn.com###linefriendModal
