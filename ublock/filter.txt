@@ -100,6 +100,14 @@ www.youtube.com###related
 www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! live chat
 ! www.youtube.com###chatframe
+! === movie ===
+! --- gimy.app ---
+gimy.app##a:has-text(/18禁|成人/)
+gimy.app##[href*="oiobbs"]
+! --- gimys.tv ---
+gimys.tv##[href*="oiobbs"]:upward(1)
+! --- movieffm.net ---
+movieffm.net##[href*="jav"]
 ! === news ===
 ! --- bbc ---
 www.bbc.com##header>div:has-text(/cookies/i)
