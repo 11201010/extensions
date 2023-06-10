@@ -113,6 +113,7 @@ gimy.app##a:has-text(/18禁|成人/)
 gimy.app##[href*="oiobbs"]
 ! --- gimys.tv ---
 gimys.tv##[href*="oiobbs"]:upward(1)
+gimys.tv##li a[href*="bit"]:upward(1)
 ! --- movieffm.net ---
 movieffm.net##[href*="jav"]
 ! === news ===
