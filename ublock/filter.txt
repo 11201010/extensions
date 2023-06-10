@@ -102,6 +102,9 @@ www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! live chat
 ! www.youtube.com###chatframe
 ! === movie ===
+! --- 777tv.app
+777tv.app##a[href*="bit"]:upward(1)
+777tv.app##a[href*="oiobbs"]:upward(1)
 ! --- 777tv.tw ---
 777tv.tw##.module-item-caption span.video-class:has-text(/倫理|愛情/):upward(3)
 777tv.tw##.module-title a:has-text(/倫理|愛情/):upward(3)
@@ -111,11 +114,16 @@ www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! --- gimy.app ---
 gimy.app##a:has-text(/18禁|成人/)
 gimy.app##[href*="oiobbs"]
+! --- gimy.tw ---
+gimy.tw##a:has-text(/成人|倫理|娛樂|媚/):upward(1)
+gimy.tw##.box-title:has-text(倫理):upward(1)
 ! --- gimys.tv ---
 gimys.tv##[href*="oiobbs"]:upward(1)
 gimys.tv##li a[href*="bit"]:upward(1)
 ! --- movieffm.net ---
 movieffm.net##[href*="jav"]
+! --- pttplay ---
+pttplay.co##a[href*="bit"]:upward(1)
 ! === news ===
 ! --- bbc ---
 www.bbc.com##header>div:has-text(/cookies/i)
