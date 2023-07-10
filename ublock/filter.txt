@@ -60,12 +60,13 @@ baozimh.com,webmota.com,kukuc.co##.recommend:upward(1)
 baozimh.com,webmota.com##[data-widget-type="floating"]
 ! in chapter page: kukuc.co
 ! - remove ad
-kukuc.co##.div_close_ads:upward(1)
-kukuc.co##.div_adhost:upward(1)
-kukuc.co###bottom
-kukuc.co###bottom+div
+czmanga.com##.div_close_ads:upward(1)
+czmanga.com##.div_adhost:upward(1)
+czmanga.com###bottom
+czmanga.com##.mobadsq
+czmanga.com##.recommend:upward(1)
 ! - set 1st page to 1px
-kukuc.co##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
+czmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bili-mini-mask
