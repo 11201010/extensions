@@ -17,6 +17,7 @@ habitica.com##.notifications
 habitica.com##.drawer-container
 habitica.com##footer
 habitica.com##.habitica-top-banner
+habitica.com##.streak+span
 ! --- HackMD ---
 ! hackmd prime ad in hackmd home page
 hackmd.io##.sidenav-menu-link.cursor-pointer
