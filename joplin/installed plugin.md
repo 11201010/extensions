@@ -1,0 +1,7 @@
+* [code-clipboard](https://github.com/bluulo/joplin-plugin-code-clipboard)
+* [Graph](https://github.com/agerardin/joplin-plugin-knowledge-graph)
+* [Inline Tags](https://github.com/roman-r-m/joplin-inline-tags-plugin)
+* [Sortable](https://github.com/hieuthi/joplin-plugin-markdown-table-sortable)
+* [Note Tabs](https://github.com/benji300/joplin-note-tabs)
+* [Outline](https://github.com/cqroot/joplin-outline)
+* [Quick Links](https://github.com/roman-r-m/joplin-plugin-quick-links)
