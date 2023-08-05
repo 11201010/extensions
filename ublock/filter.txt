@@ -1,6 +1,6 @@
 ! Title: 淨網意志
 ! === regex filter to all URLs, tested by https://regexr.com/ ===
-*##a[href*="news"],ytd-channel-renderer,ytd-comment-renderer,yt-live-chat-text-message-renderer,ytd-playlist-renderer,ytd-video-renderer,ytp-videowall-still-info-title:upward(1):has-text(/比基尼|變態|不(倫|雅)|成人|出軌|初夜|床戰|電愛|緋聞|火辣|活春宮|嬌|露(點|鳥)|裸|倫理(電影|片)|(辣|正)妹|摩鐵|奶頭|男友|(美|魔)女|女(上男下|神|同|星|優|友)|炮友|陪睡|(混血|辣|嫩)妻|騎+.*女|情趣|三(級|级)|上床|涉黃|身材|雙性戀|私(處|密)|四腳獸|(美)臀|外遇|下(海|體)|小三|性(愛|感|奴|侵|騷)|(低|美|揉)胸|胸(前|型)|養眼|一夜情|淫|慾|走光|A片|🔞|GG|𝗦𝗘𝗫|𝙨𝙚𝙭|18(\+|plus)|^av[^\w]|blondine|cam[^\w]|d(andanzan|card)|erotic|j(able|(\s|\.)?a(\s|\.)?v[^a]|k)|n(aked|ude)|s((\s|\.)?e(\s|\.)?x|trip|wag)|twoeggz|[^(you)]tube|x(x|vid)/i)
+!*##a[href*="news"],ytd-channel-renderer,ytd-comment-renderer,yt-live-chat-text-message-renderer,ytd-playlist-renderer,ytd-video-renderer,ytp-videowall-still-info-title:upward(1):has-text(/比基尼|變態|不(倫|雅)|成人|出軌|初夜|床戰|電愛|緋聞|火辣|活春宮|嬌|露(點|鳥)|裸|倫理(電影|片)|(辣|正)妹|摩鐵|奶頭|男友|(美|魔)女|女(上男下|神|同|星|優|友)|炮友|陪睡|(混血|辣|嫩)妻|騎+.*女|情趣|三(級|级)|上床|涉黃|身材|雙性戀|私(處|密)|四腳獸|(美)臀|外遇|下(海|體)|小三|性(愛|感|奴|侵|騷)|(低|美|揉)胸|胸(前|型)|養眼|一夜情|淫|慾|走光|A片|🔞|GG|𝗦𝗘𝗫|𝙨𝙚𝙭|18(\+|plus)|^av[^\w]|blondine|cam[^\w]|d(andanzan|card)|erotic|j(able|(\s|\.)?a(\s|\.)?v[^a]|k)|n(aked|ude)|s((\s|\.)?e(\s|\.)?x|trip|wag)|twoeggz|[^(you)]tube|x(x|vid)/i)
 ! === allow text selection to all URLs
 *##+js(ra, oncontextmenu|onselectstart|ondragstart)
 *##*:style(user-select:text !important)
@@ -61,13 +61,13 @@ baozimh.com,webmota.com,kukuc.co##.recommend:upward(1)
 baozimh.com,webmota.com##[data-widget-type="floating"]
 ! in chapter page: kukuc.co
 ! - remove ad
-czmanga.com##.div_close_ads:upward(1)
-czmanga.com##.div_adhost:upward(1)
-czmanga.com###bottom
-czmanga.com##.mobadsq
-czmanga.com##.recommend:upward(1)
+dzmanga.com##.div_close_ads:upward(1)
+dzmanga.com##.div_adhost:upward(1)
+dzmanga.com###bottom
+dzmanga.com##.mobadsq
+dzmanga.com##.recommend:upward(1)
 ! - set 1st page to 1px
-czmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
+dzmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bili-mini-mask
