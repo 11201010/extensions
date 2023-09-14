@@ -39,6 +39,8 @@ blog.csdn.net##.passport-login-mark
 blog.csdn.net##.passport-login-container
 ! --- jianshu ---
 www.jianshu.com##[src*="chuzushijian"]:upward(1)
+! --- medium ---
+medium.com##h2:has-text(/membership/i):upward(8)
 ! --- pixnet ---
 *##body#article-main:style(overflow: scroll !important)
 *###ad-full-page
