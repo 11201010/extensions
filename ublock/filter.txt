@@ -117,6 +117,7 @@ www.youtube.com##.no-transition.ytd-comment-renderer.style-scope > .yt-img-shado
 777tv.tw##.block-box-content strong:has-text(/倫理|愛情/):upward(2)
 777tv.tw##a.library-item:has-text(/倫理|愛情/)
 777tv.tw##.nav-menu-item-name:has-text(娛樂):upward(2)
+777tv.tw##.nav-menu-item-name:has-text(成人):upward(2)
 ! --- gimy.app ---
 gimy.app##a:has-text(/18禁|成人/)
 gimy.app##[href*="oiobbs"]
