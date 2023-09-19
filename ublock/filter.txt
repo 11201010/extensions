@@ -105,6 +105,8 @@ www.youtube.com###related
 www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! remove user thumbnail img in comment section
 www.youtube.com##.no-transition.ytd-comment-renderer.style-scope > .yt-img-shadow.style-scope
+! remove endscreen content
+www.youtube.com##.ytp-endscreen-content
 ! live chat
 ! www.youtube.com###chatframe
 ! === movie ===
@@ -226,4 +228,5 @@ tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
 tw.news.yahoo.com###module-mktBanner
+
 
