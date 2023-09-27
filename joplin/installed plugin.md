@@ -4,4 +4,5 @@
 * [Sortable](https://github.com/hieuthi/joplin-plugin-markdown-table-sortable)
 * [Note Tabs](https://github.com/benji300/joplin-note-tabs)
 * [Outline](https://github.com/cqroot/joplin-outline)
+* [Quick HTML tags](https://github.com/martinkorelic/joplin-plugin-quick-html-tags)
 * [Quick Links](https://github.com/roman-r-m/joplin-plugin-quick-links)
