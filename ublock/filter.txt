@@ -63,13 +63,13 @@ baozimh.com,webmota.com,kukuc.co##.recommend:upward(1)
 baozimh.com,webmota.com##[data-widget-type="floating"]
 ! in chapter page: kukuc.co
 ! - remove ad
-dzmanga.com##.div_close_ads:upward(1)
-dzmanga.com##.div_adhost:upward(1)
-dzmanga.com###bottom
-dzmanga.com##.mobadsq
-dzmanga.com##.recommend:upward(1)
+dociy.net##.div_close_ads:upward(1)
+dociy.net##.div_adhost:upward(1)
+dociy.net###bottom
+dociy.net##.mobadsq
+dociy.net##.recommend:upward(1)
 ! - set 1st page to 1px
-dzmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
+dociy.net##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bili-mini-mask
@@ -107,6 +107,8 @@ www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 www.youtube.com##.no-transition.ytd-comment-renderer.style-scope > .yt-img-shadow.style-scope
 ! remove endscreen content
 www.youtube.com##.ytp-endscreen-content
+! youtube user thumbnail
+www.youtube.com##.thumbnail
 ! live chat
 ! www.youtube.com###chatframe
 ! === movie ===
@@ -228,5 +230,4 @@ tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
 tw.news.yahoo.com###module-mktBanner
-
 
