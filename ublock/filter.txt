@@ -33,6 +33,7 @@ stackexchange.com,stackoverflow.com##.js-consent-banner
 zhihu.com##.Modal-wrapper
 zhihu.com##.itcauecng:style(overflow: scroll !important)
 zhihu.com##[style*="z-index:"]
+zhihu.com##button:has-text(立即登录):upward(2)
 ! === blog ===
 ! --- csdn ---
 blog.csdn.net##.passport-login-mark
