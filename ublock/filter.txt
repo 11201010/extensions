@@ -180,6 +180,9 @@ www.ftvnews.com.tw###Allow
 www.ftvnews.com.tw##[id*="gpt"]
 ! --- hk01 ---
 www.hk01.com###leaderboard:upward(1)
+! --- kknews ---
+kknews.cc##[data-ref="player"]
+kknews.cc##[class*="player"]
 ! --- ltn ---
 ltn.com.tw##.ad
 ltn.com.tw##[id|="hot"]
