@@ -64,13 +64,13 @@ baozimh.com,webmota.com,kukuc.co##.recommend:upward(1)
 baozimh.com,webmota.com##[data-widget-type="floating"]
 ! in chapter page: kukuc.co
 ! - remove ad
-dociy.net,dzmanga.com##.div_close_ads:upward(1)
-dociy.net,dzmanga.com##.div_adhost:upward(1)
-dociy.net,dzmanga.com###bottom
-dociy.net,dzmanga.com##.mobadsq
-dociy.net,dzmanga.com##.recommend:upward(1)
+dociy.net,twmanga.com##.div_close_ads:upward(1)
+dociy.net,twmanga.com##.div_adhost:upward(1)
+dociy.net,twmanga.com###bottom
+dociy.net,twmanga.com##.mobadsq
+dociy.net,twmanga.com##.recommend:upward(1)
 ! - set 1st page to 1px
-dociy.net##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
+dociy.net,twmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bili-mini-mask
