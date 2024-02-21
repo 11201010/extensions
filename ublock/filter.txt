@@ -79,6 +79,7 @@ www.bilibili.com##.login-tip
 www.bilibili.com##.ad-report
 www.bilibili.com##.video-ad-creative-card 
 www.bilibili.com##[class*="login"]
+www.bilibili.com##.video-title:style(white-space: normal !important)
 ! --- Facebook ---
 facebook.com##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 facebook.com##*:style(line-height: 1.6rem !important)
@@ -234,4 +235,5 @@ tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
 tw.news.yahoo.com###module-mktBanner
+
 
