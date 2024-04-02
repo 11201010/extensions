@@ -110,7 +110,7 @@ www.youtube.com##.no-transition.ytd-comment-renderer.style-scope > .yt-img-shado
 ! remove endscreen content
 www.youtube.com##.ytp-endscreen-content
 ! youtube user thumbnail
-www.youtube.com##.thumbnail
+www.youtube.com###author-thumbnail
 ! live chat
 ! www.youtube.com###chatframe
 ! === movie ===
@@ -235,5 +235,4 @@ tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
 tw.news.yahoo.com###module-mktBanner
-
 
