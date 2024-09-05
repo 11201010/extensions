@@ -2,12 +2,13 @@ patch:
   "preset_color_schemes/inkSky":
     back_color: 0xFFFFFF # 視窗背景
     border_color: 0xE3E3E3 # 視窗邊框
-    candidate_text_color: 0x000000 # 其它候選項文字
-    comment_text_color: 0x858585 # 其它候選項提示
+    candidate_text_color: 0x923D0B # 其它候選項文字
+    comment_text_color: 0x923D0B # 其它候選項提示
     hilited_label_color: 0x000000 # 選定候選項序號
-    hilited_candidate_back_color: 0xFFD6AC # 選定候選項背景
+    hilited_candidate_back_color: 0xFFF4DD # 選定候選項背景
     hilited_candidate_text_color: 0x000000 # 選定候選項文字
     hilited_comment_text_color: 0x000000 # 選定候選項提示
-    name: "水墨天青 / inkSky"
+    name: "天墨青花 / inkSky"
   "style/color_scheme": inkSky
   "style/font_face": "AaBMCQCQKS (Non-Commercial Use), Microsoft Yahei"
+  
