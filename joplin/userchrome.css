@@ -12,6 +12,9 @@
 .cm-todo-prior-D {
   color: #0b3d92 !important;
 }
+.cm-todo-context {
+  color: #2c96ff !important;
+}
 .cm-todo-project {
   background-color: #fdc44d !important;
 }
