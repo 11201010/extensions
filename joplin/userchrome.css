@@ -1,21 +1,17 @@
-/* For styling the rendered Markdown */
-code {
-  font-family: Consolas, Monaco, "Courier New", monospace;
-}
-table {
-  width: 100%;
-}
-mark {
-  padding: 0.2rem;
-}
-#joplin-container-content {
-  text-align: justify;
-}
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
 /* joplin-plugin-metis */
-ul.todotxt {
-  --color-A: #e60000;
-  --color-B: #d9a212;
-  --color-C: #338320;
-  --color-D: #0b3d92;
-  --project-background-color: #fdc44d;
+.cm-todo-prior-A {
+  color: #e60000 !important;
+}
+.cm-todo-prior-B {
+  color: #d9a212 !important;
+}
+.cm-todo-prior-C {
+  color: #338320 !important;
+}
+.cm-todo-prior-D {
+  color: #0b3d92 !important;
+}
+.cm-todo-project {
+  background-color: #fdc44d !important;
 }
