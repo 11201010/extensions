@@ -1,0 +1,21 @@
+/* For styling the rendered Markdown */
+code {
+  font-family: Consolas, Monaco, "Courier New", monospace;
+}
+table {
+  width: 100%;
+}
+mark {
+  padding: 0.2rem;
+}
+#joplin-container-content {
+  text-align: justify;
+}
+/* joplin-plugin-metis */
+ul.todotxt {
+  --color-A: #e60000;
+  --color-B: #d9a212;
+  --color-C: #338320;
+  --color-D: #0b3d92;
+  --project-background-color: #cdccb8;
+}
