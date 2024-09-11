@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name        Facebook Messenger
 @namespace   11201010
-@version     1.0.0
+@version     1.1.0
 @updateURL   https://github.com/11201010/extensions/raw/main/usercss/messenger.user.css
 ==/UserStyle== */
 @-moz-document domain("messenger.com") {
 	#facebook .system-fonts--body div,
   #facebook .system-fonts--body span {
-    font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important;
+    font-family: "Microsoft JhengHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important;
   }
 }
