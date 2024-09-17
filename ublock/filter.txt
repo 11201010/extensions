@@ -64,13 +64,13 @@ baozimh.com,webmota.com,kukuc.co##.recommend:upward(1)
 baozimh.com,webmota.com##[data-widget-type="floating"]
 ! in chapter page
 ! - remove ad
-hcmanga.com,twmanga.com##.div_close_ads:upward(1)
-hcmanga.com,twmanga.com##.div_adhost:upward(1)
-hcmanga.com,twmanga.com###bottom
-hcmanga.com,twmanga.com##.mobadsq
-hcmanga.com,twmanga.com##.recommend:upward(1)
+twmanga.com,ddmanga.com##.div_close_ads:upward(1)
+twmanga.com,ddmanga.com##.div_adhost:upward(1)
+twmanga.com,ddmanga.com###bottom
+twmanga.com,ddmanga.com##.mobadsq
+twmanga.com,ddmanga.com##.recommend:upward(1)
 ! - set 1st page to 1px
-hcmanga.com,twmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
+twmanga.com,ddmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
 www.bilibili.com##.bili-mini-mask
@@ -81,18 +81,42 @@ www.bilibili.com##.video-ad-creative-card
 www.bilibili.com##[class*="login"]
 www.bilibili.com##.video-title:style(white-space: normal !important)
 ! --- Facebook ---
-facebook.com##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
+facebook.com##*:style(font-family: "Microsoft JhengHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 facebook.com##*:style(line-height: 1.6rem !important)
 ! fb left sidebar > Watch
-www.facebook.com##a[href="https://www.facebook.com/watch/"]
+facebook.com##a[href="https://www.facebook.com/watch/"]
 ! pop-up chat
 !www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
-www.facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
+facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
+! facebook-feeds-filter
+facebook.com##+js(facebook-feeds-filter)
+! >> uBlock filters - Annoyances should remove Suggested posts without a need for additional filters <<
+! Suggested for you
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset],[aria-describedby]:not([aria-posinset])):style(height: 0 !important; overflow: hidden !important;)
+! Unlabelled Suggested posts (with a Follow/Join buttons)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(/Follow|Join/):upward([aria-posinset],[aria-describedby]:not([aria-posinset])):style(height: 0 !important; overflow: hidden !important;)
+! Use only if you actually have these: Suggested posts with the label next to the post date
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you):style(height: 0 !important; overflow: hidden !important;)
+! People You May Know
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/friends/"]):style(height: 0 !important; overflow: hidden !important;)
+! Suggested groups
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/groups/discover/"]):style(height: 0 !important; overflow: hidden !important;)
+! Reels and short videos (English UI)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Reels"]):style(height: 0 !important; overflow: hidden !important;)
+! Suggested pages
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Suggested pages"]):style(height: 0 !important; overflow: hidden !important;)
+! For the posts with Follow button
+! Remember to turn on Allow custom filters requiring trust in "My filters" pane. 
+!#if cap_html_filtering
+||facebook.com/api/graphql/$xhr,replace=/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/{}/g,domain=web.facebook.com|www.facebook.com
+!#else
+web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/g', {}, /api/graphql)
+!#endif
 ! --- sina ---
 blog.sina.com.cn##[class*="sinaad"]
 ! --- YouTube ---
-youtube.com##*:style(font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
+youtube.com##*:style(font-family: "Microsoft JhengHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 ! youtube left mini sidebar buttons
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
 www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(2)
