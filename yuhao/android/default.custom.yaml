@@ -5,4 +5,4 @@ patch:
     # - schema: yustar_tc  # 以傳統漢字爲主設置簡碼
     - schema: yustar_tw  # 以臺灣傳統漢字爲主設置簡碼
     - schema: luna_pinyin
-    - schema: bopomofo
+    
