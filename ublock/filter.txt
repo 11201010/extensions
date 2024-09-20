@@ -27,6 +27,8 @@ hackmd.io##.announcement-trigger
 web.kamihq.com##.premium-required
 web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
 ! === Q&A sites ===
+! --- reddit ---
+reddit.com##section[aria-label*="Related"]
 ! --- stackexchange, stackoverflow ---
 stackexchange.com,stackoverflow.com##.js-consent-banner
 ! --- zhihu ---
