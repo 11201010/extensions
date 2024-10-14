@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-10-14T19:02:08.352Z",
+    "createdAt": "2024-10-14T19:10:09.801Z",
     "redirects": [
         {
             "description": "youtube homepage to subscriptions",
@@ -43,8 +43,8 @@
             "exampleUrl": "xxx",
             "exampleResult": "about:blank",
             "error": null,
-            "includePattern": "18|69|av|cam(4|girl)|ero|h(anime|entai|game)|j(able|kf)|n(aked|sfw|ude)|porn|s(ex|trip|wag)|t(ease|urbate)|xn?(vid|xx)",
-            "excludePattern": "java",
+            "includePattern": "18|69|av|cam(4|girl)|ero|h(anime|entai|game)|j(able|kf)|n(aked|sfw|ude)|onlyfan|porn|s(ex|trip|wag)|t(ease|urbate)|xn?(vid|xx)",
+            "excludePattern": "java|nofap",
             "patternDesc": "block domain names and keywords",
             "redirectUrl": "about:blank",
             "patternType": "R",
