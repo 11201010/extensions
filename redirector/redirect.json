@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-10-15T13:21:55.894Z",
+    "createdAt": "2024-10-17T04:43:02.795Z",
     "redirects": [
         {
             "description": "youtube homepage to subscriptions",
@@ -39,12 +39,12 @@
             ]
         },
         {
-            "description": "",
+            "description": "redirect harem-EN",
             "exampleUrl": "xxx",
             "exampleResult": "https://11201010.github.io/utrdmquote/",
             "error": null,
-            "includePattern": "18|69|av|cam(4|girl)|ero|h(anime|entai|game)|j(able|kf)|n(aked|sfw|ude)|onlyfan|porn|s(ex|trip|wag)|t(ease|urbate)|xn?(vid|xx)",
-            "excludePattern": "java|nofap",
+            "includePattern": "\\b(j?av)\\b|cam(4|girl)|ero|h(anime|entai|game)|j(able|kf)|n(aked|sfw|ude)|onlyfan|porn|s(ex|trip|wag)|t(ease|urbate)|xn?(vid|xx)",
+            "excludePattern": "nofap",
             "patternDesc": "block domain names and keywords",
             "redirectUrl": "https://11201010.github.io/utrdmquote/",
             "patternType": "R",
