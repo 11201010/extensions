@@ -29,6 +29,9 @@ web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami
 ! === Q&A sites ===
 ! --- reddit ---
 reddit.com##section[aria-label*="Related"]
+reddit.com##search-telemetry-tracker[data-faceplate-tracking-context='{"action_info":{"pane_name":"posts","type":"nsfw"}}']
+reddit.com##div:has(h1):has-text(/mature content/i)
+reddit.com##faceplate-tracker[data-faceplate-tracking-context='{"action_info":{"type":"nsfw_setting"}}']
 ! --- stackexchange, stackoverflow ---
 stackexchange.com,stackoverflow.com##.js-consent-banner
 ! --- zhihu ---
