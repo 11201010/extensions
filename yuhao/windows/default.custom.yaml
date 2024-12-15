@@ -1,0 +1,4 @@
+patch:
+  "menu/page_size": 9
+  schema_list:
+    - schema: yustar_tw # 以臺灣傳統漢字爲主設置簡碼
