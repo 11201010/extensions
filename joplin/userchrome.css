@@ -1,4 +1,11 @@
 /* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+/* markdown diff */
+pre:has(span):has(span.cm-positive) {
+  background: #dafbe1 !important;
+}
+pre:has(span):has(span.cm-negative) {
+  background: #ffebe9 !important;
+}
 /* joplin-plugin-metis */
 .cm-todo-prior-A {
   color: #e60000 !important;
