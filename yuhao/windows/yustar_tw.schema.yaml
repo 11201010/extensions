@@ -26,7 +26,7 @@ switches:
       - cjk
       - yuhao_charset_filter_common
     states: [全漢字, 常用字]
-    reset: 0
+    reset: 1
     # Control+Shift+O
   - name: yuhao_single_char_only_for_full_code
     states: ["字詞同出", "全碼出單"]
@@ -41,7 +41,7 @@ switches:
       - yuhao_chaifen.lv1
       - yuhao_chaifen.lv2
       - yuhao_chaifen.lv3
-    states: [〇註解, 一重註解, 二重註解, 三重註解]
+    states: [〇註解, 一重註解, 二重註解, 多重註解]
     reset: 1
     # /
   - name: yuhao_autocompletion_filter
@@ -248,7 +248,7 @@ yuhao_macro:
               yuhao_chaifen.lv2,
               yuhao_chaifen.lv3,
             ],
-          states: [☐☐☐註解, ☐☑☐註解, ☑☑☑註解],
+          states: [☐☐☐註解, ☑☐☐註解, ☐☑☐註解, ☐☐☑註解],
         }
     cjk:
       - {
