@@ -8,15 +8,19 @@ table {
 mark {
   padding: 0.2rem;
 }
-#joplin-container-content {
+/* #joplin-container-content {
   text-align: justify;
+} */
+/* hljs */
+.hljs {
+  white-space: pre-line;
 }
 /* joplin-plugin-metis */
 ul.todotxt {
-  --color-A: #e60000;
-  --color-B: #d9a212;
-  --color-C: #338320;
-  --color-D: #0b3d92;
-  --context-color: #2c96ff;
-  --project-background-color: #fdc44d;
+  --color-A: #e60000 !important;
+  --color-B: #d9a212 !important;
+  --color-C: #338320 !important;
+  --color-D: #0b3d92 !important;
+  --context-color: #2c96ff !important;
+  --project-background-color: #fdc44d !important;
 }
