@@ -79,13 +79,11 @@ twmanga.com,ddmanga.com##.recommend:upward(1)
 twmanga.com,ddmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
-www.bilibili.com##.bili-mini-mask
-www.bilibili.com##.bpx-player-toast-item
-www.bilibili.com##.login-tip
-www.bilibili.com##.ad-report
-www.bilibili.com##.video-ad-creative-card 
-www.bilibili.com##[class*="login"]
-www.bilibili.com##.video-title:style(white-space: normal !important)
+bilibili.com##[class*="login"]
+! homepage center login mask
+bilibili.com##.bili-mini-mask
+! video player bottom left login tip
+bilibili.com##span:has-text(登录):upward(2)
 ! --- Facebook ---
 facebook.com##*:style(font-family: "Microsoft JhengHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 facebook.com##*:style(line-height: 1.6rem !important)
@@ -119,6 +117,8 @@ www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):h
 !#else
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/g', {}, /api/graphql)
 !#endif
+! --- messenger ---
+messenger.com##section[role="feed"]
 ! --- sina ---
 blog.sina.com.cn##[class*="sinaad"]
 ! --- YouTube ---
