@@ -1,0 +1,3 @@
+||ehrd.greattree.com.tw/cltcms/play-index-home.do?type=timeout_warning$document,domain=ehrd.greattree.com.tw
+||ehrd.greattree.com.tw/cltcms/video/watermark/videojs.watermark.js$script,domain=ehrd.greattree.com.tw
+ehrd.greattree.com.tw###WATERMARK_DIV
