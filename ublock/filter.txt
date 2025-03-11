@@ -84,6 +84,8 @@ bilibili.com##[class*="login"]
 bilibili.com##.bili-mini-mask
 ! video player bottom left login tip
 bilibili.com##span:has-text(登录):upward(2)
+! video page top right ad
+bilibili.com##[class="video-card-ad-small"]
 ! --- Facebook ---
 facebook.com##*:style(font-family: "Microsoft JhengHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 facebook.com##*:style(line-height: 1.6rem !important)
