@@ -35,9 +35,10 @@ a.list-item {
 button:has(.icon-sync) {
   background-color: #2d6bdc;
 }
-button:has(.icon-sync):hover {
+button:has(.icon-sync):hover,
+button:has(.icon-sync):hover span {
   background: #1e54b6;
-  color: #fff;
+  color: #fff !important;
 }
 .sidebar > div:nth-child(2) div {
   color: #000;
