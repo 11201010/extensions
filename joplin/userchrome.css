@@ -1,4 +1,47 @@
 /* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+/* icons */
+.sidebar i {
+  color: #2d6bdc !important;
+}
+/* sidebar selected items */
+.list-item-wrapper.-selected {
+  background: #e5e5e5;
+}
+/* sidebar hover items */
+[role="treeitem"]:hover {
+  background: #cbdaf1 !important;
+}
+/* NOTEBOOKS and TAGS title */
+div[role="treeitem"] div span {
+  color: #b8b7b8;
+}
+/* notebook sidebar */
+[role="navigation"][aria-label="Sidebar"] {
+  background-color: #f4f5f6;
+}
+/* notebook title */
+span.title {
+  color: #000;
+}
+/* notes in notebooks and tags */
+div.note-count-label {
+  color: #000;
+}
+/* tag title */
+a.list-item {
+  color: #000;
+}
+/* synchronize */
+button:has(.icon-sync) {
+  background-color: #2d6bdc;
+}
+button:has(.icon-sync):hover {
+  background: #1e54b6;
+  color: #fff;
+}
+.sidebar > div:nth-child(2) div {
+  color: #000;
+}
 /* markdown diff */
 pre:has(span):has(span.cm-positive) {
   background: #dafbe1 !important;
