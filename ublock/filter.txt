@@ -149,15 +149,15 @@ www.youtube.com###author-thumbnail
 ! www.youtube.com###chatframe
 ! === movie ===
 ! --- 777tv.app
-777tv.app##a[href*="bit"]:upward(1)
-777tv.app##a[href*="oiobbs"]:upward(1)
+777tv.*##a[href*="bit"]:upward(1)
+777tv.*##a[href*="oiobbs"]:upward(1)
 ! --- 777tv.tw ---
-777tv.tw##.module-item-caption span.video-class:has-text(/倫理|愛情/):upward(3)
-777tv.tw##.module-title a:has-text(/倫理|愛情/):upward(3)
-777tv.tw##.block-box-content strong:has-text(/倫理|愛情/):upward(2)
-777tv.tw##a.library-item:has-text(/倫理|愛情/)
-777tv.tw##.nav-menu-item-name:has-text(娛樂):upward(2)
-777tv.tw##.nav-menu-item-name:has-text(成人):upward(2)
+777tv.*##.module-item-caption span.video-class:has-text(/倫理|愛情/):upward(3)
+777tv.*##.module-title a:has-text(/倫理|愛情/):upward(3)
+777tv.*##.block-box-content strong:has-text(/倫理|愛情/):upward(2)
+777tv.*##a.library-item:has-text(/倫理|愛情/)
+777tv.*##.nav-menu-item-name:has-text(娛樂):upward(2)
+777tv.*##.nav-menu-item-name:has-text(成人):upward(2)
 ! --- gimy.app ---
 gimy.*##a:has-text(/18禁|成人/)
 gimy.*##[href*="oiobbs"]
@@ -168,9 +168,9 @@ gimy.*##.box-title:has-text(倫理):upward(1)
 gimys.*##[href*="oiobbs"]:upward(1)
 gimys.*##li a[href*="bit"]:upward(1)
 ! --- movieffm.net ---
-movieffm.net##[href*="jav"]
+movieffm.*##[href*="jav"]
 ! --- pttplay ---
-pttplay.co##a[href*="bit"]:upward(1)
+pttplay.*##a[href*="bit"]:upward(1)
 ! === news ===
 ! --- bbc ---
 www.bbc.com##header>div:has-text(/cookies/i)
