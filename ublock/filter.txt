@@ -159,14 +159,14 @@ www.youtube.com###author-thumbnail
 777tv.tw##.nav-menu-item-name:has-text(娛樂):upward(2)
 777tv.tw##.nav-menu-item-name:has-text(成人):upward(2)
 ! --- gimy.app ---
-gimy.app##a:has-text(/18禁|成人/)
-gimy.app##[href*="oiobbs"]
+gimy.*##a:has-text(/18禁|成人/)
+gimy.*##[href*="oiobbs"]
 ! --- gimy.tw ---
-gimy.tw##a:has-text(/成人|倫理|娛樂|媚/):upward(1)
-gimy.tw##.box-title:has-text(倫理):upward(1)
+gimy.*##a:has-text(/成人|倫理|娛樂|媚/):upward(1)
+gimy.*##.box-title:has-text(倫理):upward(1)
 ! --- gimys.tv ---
-gimys.tv##[href*="oiobbs"]:upward(1)
-gimys.tv##li a[href*="bit"]:upward(1)
+gimys.*##[href*="oiobbs"]:upward(1)
+gimys.*##li a[href*="bit"]:upward(1)
 ! --- movieffm.net ---
 movieffm.net##[href*="jav"]
 ! --- pttplay ---
