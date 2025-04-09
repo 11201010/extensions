@@ -82,6 +82,10 @@ twmanga.com,ddmanga.com##.comic-contain > div:nth-of-type(2):style(background-co
 bilibili.com##[class*="login"]
 ! homepage center login mask
 bilibili.com##.bili-mini-mask
+! homepage stream ads
+bilibili.com##div.floor-single-card:has(span:has-text(直播))
+! homepage video ads
+bilibili.com##div.feed-card:has(span:has-text(广告))
 ! video player bottom left login tip
 bilibili.com##span:has-text(登录):upward(2)
 ! video page top right ad
