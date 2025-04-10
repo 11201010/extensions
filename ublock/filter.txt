@@ -86,6 +86,7 @@ bilibili.com##.bili-mini-mask
 bilibili.com##div.floor-single-card:has(span:has-text(直播))
 ! homepage video ads
 bilibili.com##div.feed-card:has(span:has-text(广告))
+bilibili.com##div.is-rcmd:has(span:has-text(广告))
 ! video player bottom left login tip
 bilibili.com##span:has-text(登录):upward(2)
 ! video page top right ad
