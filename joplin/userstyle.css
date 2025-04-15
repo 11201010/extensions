@@ -2,6 +2,10 @@
 code {
   font-family: Consolas, Monaco, "Courier New", monospace;
 }
+/* cjk characters in math expression */
+span.mord.cjk_fallback {
+  font-family: DFKai-sb;
+}
 table {
   width: 100%;
 }
