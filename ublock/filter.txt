@@ -3,7 +3,7 @@
 !*##[class*="cookie"]
 !*##a[href*="news"],ytd-channel-renderer,ytd-comment-renderer,yt-live-chat-text-message-renderer,ytd-playlist-renderer,ytd-video-renderer,ytp-videowall-still-info-title:upward(1):has-text(/比基尼|變態|不(倫|雅)|成人|出軌|初夜|床戰|電愛|緋聞|火辣|活春宮|嬌|露(點|鳥)|裸|倫理(電影|片)|(辣|正)妹|摩鐵|奶頭|男友|(美|魔)女|女(上男下|神|同|星|優|友)|炮友|陪睡|(混血|辣|嫩)妻|騎+.*女|情趣|三(級|级)|上床|涉黃|身材|雙性戀|私(處|密)|四腳獸|(美)臀|外遇|下(海|體)|小三|性(愛|感|奴|侵|騷)|(低|美|揉)胸|胸(前|型)|養眼|一夜情|淫|慾|走光|A片|🔞|GG|𝗦𝗘𝗫|𝙨𝙚𝙭|18(\+|plus)|^av[^\w]|blondine|cam[^\w]|d(andanzan|card)|erotic|j(able|(\s|\.)?a(\s|\.)?v[^a]|k)|n(aked|ude)|s((\s|\.)?e(\s|\.)?x|trip|wag)|twoeggz|[^(you)]tube|x(x|vid)/i)
 ! === allow text selection to all URLs
-*##+js(ra, oncontextmenu|onselectstart|ondragstart)
+*##*:remove-attr(/oncontextmenu|onselectstart|ondragstart/)
 *##*:style(user-select:text !important)
 ! === productivity ===
 ! --- Habitica ---
@@ -75,8 +75,6 @@ twmanga.com,ddmanga.com##.div_adhost:upward(1)
 twmanga.com,ddmanga.com###bottom
 twmanga.com,ddmanga.com##.mobadsq
 twmanga.com,ddmanga.com##.recommend:upward(1)
-! - set 1st page to 1px
-twmanga.com,ddmanga.com##.comic-contain > div:nth-of-type(2):style(background-color:#000; height: 1px)
 ! === social media ===
 ! --- bilibili ---
 bilibili.com##[class*="login"]
@@ -130,6 +128,7 @@ web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_co
 !#endif
 ! --- messenger ---
 messenger.com##section[role="feed"]
+facebook.com,messenger.com##[aria-label="Inbox Tray"]
 ! --- sina ---
 blog.sina.com.cn##[class*="sinaad"]
 ! --- YouTube ---
