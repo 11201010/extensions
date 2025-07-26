@@ -1,2 +1,4 @@
-! 選取文字
+! enable text selection
 ||ehrd.greattree.com.tw/eHRD/HtmlProtecter.js$script,domain=ehrd.greattree.com.tw
+! remove video watermark
+ehrd.greattree.com.tw##.vjs-text-LogoBlock
