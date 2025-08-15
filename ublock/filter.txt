@@ -81,6 +81,8 @@ twmanga.com,ddmanga.com##.recommend:upward(1)
 czbooks.net##ul:has(li:has-text(工口))
 ! novel page
 czbooks.net##li:has(a:has-text(/工口|情趣/))
+! chapter page
+czbooks.net##[class*="ads"]
 ! === social media ===
 ! --- bilibili ---
 bilibili.com##[class*="login"]
