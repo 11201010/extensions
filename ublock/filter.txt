@@ -75,6 +75,12 @@ twmanga.com,ddmanga.com##.div_adhost:upward(1)
 twmanga.com,ddmanga.com###bottom
 twmanga.com,ddmanga.com##.mobadsq
 twmanga.com,ddmanga.com##.recommend:upward(1)
+! === novel ===
+! --- czbooks ---
+! homepage
+czbooks.net##ul:has(li:has-text(工口))
+! novel page
+czbooks.net##li:has(a:has-text(/工口|情趣/))
 ! === social media ===
 ! --- bilibili ---
 bilibili.com##[class*="login"]
