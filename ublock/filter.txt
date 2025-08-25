@@ -53,6 +53,8 @@ medium.com##h2:has-text(/membership/i):upward(8)
 *###ad-full-page
 ! remove PIXNET MIB(MONEY IN BLOG)部落格廣告分潤計劃
 *##[class*="mib-ad"]
+! 猜你喜歡
+pixnet.net##[class*="you_like"]
 ! === med ===
 ! --- journalofhospitalinfection ---
 www.journalofhospitalinfection.com##.ot-buttons-fw.ot-wo-title.bottom.otFlat
