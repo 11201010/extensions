@@ -145,23 +145,24 @@ blog.sina.com.cn##[class*="sinaad"]
 ! --- YouTube ---
 youtube.com##*:style(font-family: "Microsoft JhengHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif !important)
 ! youtube left mini sidebar buttons
-www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
-www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(2)
-www.youtube.com##ytd-mini-guide-entry-renderer:nth-child(3)
+youtube.com##ytd-mini-guide-entry-renderer:nth-child(1)
+youtube.com##ytd-mini-guide-entry-renderer:nth-child(2)
+youtube.com##ytd-mini-guide-entry-renderer:nth-child(3)
 ! youtube left sidebar > 1st section: Home, Explore, Subscriptions
-www.youtube.com##ytd-guide-section-renderer:nth-child(1)
+youtube.com##ytd-guide-section-renderer:nth-child(1)
 ! youtube left sidebar > 3rd section: MORE FROM YOUTUBE
-www.youtube.com##ytd-guide-section-renderer:nth-child(3)
+youtube.com##ytd-guide-section-renderer:nth-child(3)
 ! related videos on right sidebar
-www.youtube.com###related
+youtube.com###related
 ! 2nd to last youtube shorts
-www.youtube.com##ytd-reel-video-renderer:not(:first-of-type)
+youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! remove user thumbnail img in comment section
-www.youtube.com##.no-transition.ytd-comment-renderer.style-scope > .yt-img-shadow.style-scope
+youtube.com##.no-transition.ytd-comment-renderer.style-scope > .yt-img-shadow.style-scope
 ! remove endscreen content
-www.youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-fullscreen-grid-stills-container
+youtube.com##.ytp-endscreen-content
 ! youtube user thumbnail
-www.youtube.com###author-thumbnail
+youtube.com###author-thumbnail
 ! live chat
 ! www.youtube.com###chatframe
 ! === movie ===
