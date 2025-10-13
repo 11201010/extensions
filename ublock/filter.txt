@@ -25,6 +25,10 @@ habitica.com##.streak+span
 hackmd.io##.sidenav-menu-link.cursor-pointer
 ! hackmd prime ad in hackmd note
 hackmd.io##.announcement-trigger
+! --- 倉頡字典.com ---
+倉頡字典.com##[class*="ad-div"]
+倉頡字典.com##body:style(overflow-y: auto !important)
+倉頡字典.com##p:has-text(廣告)
 ! --- web.kamihq.com ---
 web.kamihq.com##.premium-required
 web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
@@ -34,6 +38,7 @@ web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami
 !reddit.com##search-telemetry-tracker[data-faceplate-tracking-context='{"action_info":{"pane_name":"posts","type":"nsfw"}}']
 !reddit.com##div:has(h1):has-text(/mature content/i)
 !reddit.com##faceplate-tracker[data-faceplate-tracking-context='{"action_info":{"type":"nsfw_setting"}}']
+reddit.com##faceplate-tracker[noun*="game"]
 ! --- stackexchange, stackoverflow ---
 stackexchange.com,stackoverflow.com##.js-consent-banner
 ! --- zhihu ---
@@ -287,4 +292,6 @@ tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
 tw.news.yahoo.com###module-mktBanner
+
+
 
