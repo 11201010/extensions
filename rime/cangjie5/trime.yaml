@@ -1438,14 +1438,14 @@ preset_keyboards:
     - {label: '弓', long_click: Down, click: n}
     - {label: '一', long_click: Right, click: m}
     - {long_click: '?', click: '/'}
-    - {label: '，', long_click: '<', click: '，'}
+    - {long_click: '<', click: ','}
     - {click: BackSpace, width: 10}
     - {click: Hide}
     - {click: Shift_L, label: 換檔, send_bindings: false}
     - {click: Keyboard_symbols, long_click: Keyboard_number}
     - {click: space, width: 40}
     - {click: Mode_switch, long_click: Menu}
-    - {label: '。', long_click: '>', click: '。'}
+    - {long_click: '>', click: '.'}
     - {click: Return, composing: Return1, long_click: CommitComment, width: 10}
   cangjie6:
     ascii_mode: 0
