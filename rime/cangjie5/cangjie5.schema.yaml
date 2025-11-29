@@ -24,6 +24,7 @@ switches:
   - name: simplification
     states: [漢字, 汉字]
   - name: extended_charset
+    reset: 0
     states: [常用, 增廣]
   - name: ascii_punct
     states: [。，, ．，]
@@ -108,3 +109,4 @@ recognizer:
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
     reverse_lookup: "`[a-z]*'?$|[a-z]*'$"
+
