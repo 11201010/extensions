@@ -1288,8 +1288,8 @@ preset_keyboards:
     - {click: 'KP_0'}
     - {click: '.'}
     - {click: ','}
-    - {click: '='}
     - {click: Keyboard_default, long_click: Keyboard_symbols}
+    - {click: '='}
     - {click: space}
     - {click: BackSpace}
     - {click: Return}
@@ -1337,8 +1337,8 @@ preset_keyboards:
     - {click: '〉', long_click: '》', ascii: '>'}
     - {click: '“', ascii: '"', long_click: '‘'}
     - {click: '”', ascii: "'", long_click: '’'}
-    - {click: '，', ascii: ',', long_click: one_hand_switch_1}
-    - {click: '？', ascii: '?', long_click: one_hand_switch_3}
+    - {click: '，', ascii: ','}
+    - {click: '？', ascii: '?'}
     - {click: BackSpace}
     - {click: Keyboard_default, long_click: Menu, width: 15}
     - {click: Keyboard_number, long_click: Color_switch}
