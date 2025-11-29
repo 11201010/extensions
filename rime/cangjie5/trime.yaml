@@ -57,11 +57,11 @@ style:
   enter_labels:  # 定义Enter键的文本
     go: 前往
     done: 完成
-    next: 下个
-    pre:  上个
+    next: 下個
+    pre:  上個
     search: 搜索
-    send: 发送
-    default: Enter   # 定义默认Enter键的文本
+    send: 發送
+    default: 換行   # 定义默认Enter键的文本
 
 window:               # 候选窗口（悬浮窗）参数
   insets:               # 窗口内边距
@@ -868,12 +868,12 @@ preset_keys:
   VOLUME_UP: {label: 音量+, send: VOLUME_UP}
   VOLUME_MUTE: {label: 靜音, send: VOLUME_MUTE}
   # 編輯
-  Shift_L: {label: Shift, send: Shift_L, shift_lock: ascii_long}
+  Shift_L: {label: '⇧', send: Shift_L, shift_lock: ascii_long}
   Return: {label: enter_labels, send: Return}
   Return1: {label: Enter, send: Return }
-  Return2: {label: 回车, send: Return }
+  Return2: {label: 回車, send: Return }
   Hide: {label: 隱藏, send: BACK}
-  BackSpace: {label: 退格, repeatable: true, send: BackSpace}
+  BackSpace: {label: '⌫', repeatable: true, send: BackSpace}
   space: {repeatable: false, functional: false, send: space}
   space1: {label: 空格, repeatable: false, functional: false, send: space}
   Escape: {label: Esc, send: Escape}
@@ -906,7 +906,7 @@ preset_keys:
   CommitComment: {label: 編碼, send: Control+Shift+Return}
   DeleteCandidate: {label: 刪詞, send: Control+Delete}
   # rime狀態
-  Mode_switch: {toggle: ascii_mode, send: Mode_switch, states: [ 中文, 西文 ]}
+  Mode_switch: {toggle: ascii_mode, send: Mode_switch, states: [ 中文, 英文 ]}
   Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半形, 全形 ]}
   Henkan: {toggle: simplification, send: Mode_switch, states: [ 漢字, 汉字 ]}
   Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增廣 ]}
@@ -957,7 +957,7 @@ preset_keys:
   Zdic: {label: 漢典, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} #搜索網頁: %s或者%1$s爲當前字符
   Zdic2: {label: 漢典, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索網頁: %2$s爲當前輸入的編碼
   WebSearch: {label: 搜索網頁, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
-  Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
+  Search: {label: '🔍︎', command: search, option: "%1$s"} #搜索短信、字典等
   Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲當前字符
   Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.deploy"}
   Sync: {label: 同步, command: broadcast, option: "com.osfans.trime.sync"}
@@ -1429,7 +1429,7 @@ preset_keyboards:
     - {label: '十', long_click: End, click: j}
     - {label: '大', long_click: '「', click: k}
     - {label: '中', long_click: '」', click: l}
-    - {label: '；', long_click: '：', click: '；'}
+    - {long_click: ':', click: ';'}
     - {label: '符', long_click: '`', click: z}
     - {label: '難', long_click: cut, click: x}
     - {label: '金', long_click: copy, click: c}
@@ -1439,10 +1439,10 @@ preset_keyboards:
     - {label: '一', long_click: Right, click: m}
     - {long_click: '?', click: '/'}
     - {long_click: '<', click: ','}
-    - {click: BackSpace, width: 10}
-    - {click: Hide}
-    - {click: Shift_L, label: 換檔, send_bindings: false}
-    - {click: Keyboard_symbols, long_click: Keyboard_number}
+    - {label: '⌫', click: BackSpace, width: 10}
+    - {label: '⇧', click: Shift_L, send_bindings: false}
+    - {click: Keyboard_symbols}
+    - {click: Keyboard_number}
     - {click: space, width: 40}
     - {click: Mode_switch, long_click: Menu}
     - {long_click: '>', click: '.'}
