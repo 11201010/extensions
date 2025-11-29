@@ -1446,7 +1446,7 @@ preset_keyboards:
     - {click: space, width: 40}
     - {click: Mode_switch, long_click: Menu}
     - {long_click: '>', click: '.'}
-    - {click: Return, composing: Return1, long_click: CommitComment, width: 10}
+    - {click: Return, composing: Return1, long_click: CommitScriptText, width: 10}
   cangjie6:
     ascii_mode: 0
     name: 倉頡六代
