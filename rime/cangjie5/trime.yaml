@@ -1278,12 +1278,12 @@ preset_keyboards:
     - {click: 'KP_5'}
     - {click: 'KP_6'}
     - {click: '%'}
-    - {click: '×'}
+    - {click: '*'}
     - {click: 'KP_7'}
     - {click: 'KP_8'}
     - {click: 'KP_9'}
     - {click: ':'}
-    - {click: '÷'}
+    - {click: '/'}
     - {click: '±'}
     - {click: 'KP_0'}
     - {click: '.'}
