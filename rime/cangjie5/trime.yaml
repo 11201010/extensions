@@ -1278,12 +1278,12 @@ preset_keyboards:
     - {click: 'KP_5'}
     - {click: 'KP_6'}
     - {click: '%'}
-    - {click: '*'}
+    - {click: '×'}
     - {click: 'KP_7'}
     - {click: 'KP_8'}
     - {click: 'KP_9'}
     - {click: ':'}
-    - {click: '/'}
+    - {click: '÷'}
     - {click: '±'}
     - {click: 'KP_0'}
     - {click: '.'}
@@ -1421,15 +1421,15 @@ preset_keyboards:
     - {label: '人', long_click: '9', click: o}
     - {label: '心', long_click: '0', click: p}
     - {label: '日', long_click: select_all, click: a}
-    - {label: '尸', long_click: '(', click: s}
-    - {label: '木', long_click: ')', click: d}
-    - {label: '火', long_click: '"', click: f}
+    - {label: '尸', long_click: '~', click: s}
+    - {label: '木', long_click: "_", click: d}
+    - {label: '火', long_click: '""{Left}', click: f}
     - {label: '土', long_click: Home, click: g}
     - {label: '竹', long_click: Up, click: h}
     - {label: '十', long_click: End, click: j}
-    - {label: '大', long_click: '「', click: k}
-    - {label: '中', long_click: '」', click: l}
-    - {long_click: ':', click: ';'}
+    - {label: '大', long_click: '(){Left}', click: k}
+    - {label: '中', long_click: '/', click: l}
+    - {label: '；', long_click: ':', click: ';'}
     - {label: '符', long_click: '`', click: z}
     - {label: '難', long_click: cut, click: x}
     - {label: '金', long_click: copy, click: c}
@@ -1437,15 +1437,15 @@ preset_keyboards:
     - {label: '月', long_click: Left, click: b}
     - {label: '弓', long_click: Down, click: n}
     - {label: '一', long_click: Right, click: m}
-    - {long_click: '?', click: '/'}
-    - {long_click: '<', click: ','}
+    - {label: '、', click: '、', long_click: '?', ascii: '/'}
+    - {label: '，', long_click: '<', click: ','}
     - {label: '⌫', click: BackSpace, width: 10}
     - {label: '⇧', click: Shift_L, send_bindings: false}
     - {click: Keyboard_symbols}
     - {click: Keyboard_number}
     - {click: space, width: 40}
     - {click: Mode_switch, long_click: Menu}
-    - {long_click: '>', click: '.'}
+    - {label: '。', long_click: '>', click: '.'}
     - {click: Return, composing: Return1, long_click: CommitScriptText, width: 10}
   cangjie6:
     ascii_mode: 0
