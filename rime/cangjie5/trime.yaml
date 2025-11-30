@@ -1421,14 +1421,14 @@ preset_keyboards:
     - {label: '人', long_click: '9', click: o}
     - {label: '心', long_click: '0', click: p}
     - {label: '日', long_click: select_all, click: a}
-    - {label: '尸', long_click: '~', click: s}
-    - {label: '木', long_click: "_", click: d}
-    - {label: '火', long_click: '""{Left}', click: f}
+    - {label: '尸', long_click: undo, click: s}
+    - {label: '木', long_click: redo, click: d}
+    - {label: '火', long_click: '_', click: f}
     - {label: '土', long_click: Home, click: g}
     - {label: '竹', long_click: Up, click: h}
     - {label: '十', long_click: End, click: j}
-    - {label: '大', long_click: '(){Left}', click: k}
-    - {label: '中', long_click: '/', click: l}
+    - {label: '大', long_click: '""{Left}', click: k}
+    - {label: '中', long_click: '(){Left}', click: l}
     - {label: '；', long_click: ':', click: ';'}
     - {label: '符', long_click: '`', click: z}
     - {label: '難', long_click: cut, click: x}
@@ -1437,7 +1437,7 @@ preset_keyboards:
     - {label: '月', long_click: Left, click: b}
     - {label: '弓', long_click: Down, click: n}
     - {label: '一', long_click: Right, click: m}
-    - {label: '、', click: '、', long_click: '?', ascii: '/'}
+    - {label: '/', click: '/', long_click: '?'}
     - {label: '，', long_click: '<', click: ','}
     - {label: '⌫', click: BackSpace, width: 10}
     - {label: '⇧', click: Shift_L, send_bindings: false}
