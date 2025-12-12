@@ -10,6 +10,6 @@ patch:
     hilited_comment_text_color: 0x000000 # 選定候選項提示
     name: "天墨青花 / inkSky"
   "style/color_scheme": inkSky
-  # "style/font_face": "AaBMCQCQKS (Non-Commercial Use), Microsoft Yahei, Yuniversus, BabelStone Han, 8suhU1"
+  "style/font_face": "Microsoft Yahei, Yuniversus, MiSans L3, BabelStone Han, 8suhU1"
   "menu/page_size": 9
   
