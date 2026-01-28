@@ -717,7 +717,7 @@ preset_keyboards:
     {click: j, label: "十", long_click: End}, 
     {click: k, label: "大", long_click: '""{Left}'}, 
     {click: l, label: "中", long_click: '(){Left}'}, 
-    {click: "；", long_click: "："}, 
+    {click: ";", long_click: ":"}, 
     {click: z, label: "符", long_click: "`"}, 
     {click: x, label: "難", long_click: cut}, 
     {click: c, label: "金", long_click: copy}, 
