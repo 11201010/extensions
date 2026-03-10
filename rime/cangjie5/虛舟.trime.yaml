@@ -1177,7 +1177,7 @@ preset_keys:
     toggle: full_shape
   clipboard_window:
     command: clipboard_window
-    label: "剪贴"
+    label: "剪貼"
     send: function
   copy:
     label: "複製"
