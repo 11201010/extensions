@@ -142,6 +142,8 @@ www.facebook.com##.xqcrz7y.x1n2onr6.xq8finb.x1e56ztr.x1xmf6yo.xdt5ytf.x78zum5 > 
 !#else
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/g', {}, /api/graphql)
 !#endif
+! --- line ---
+|| lap-click.tr.line.me
 ! --- messenger ---
 messenger.com##section[role="feed"]
 facebook.com,messenger.com##[aria-label="Inbox Tray"]
