@@ -115,33 +115,33 @@ facebook.com##a[href="https://www.facebook.com/watch/"]
 ! pop-up chat
 !www.facebook.com##[data-testid="mwchat-tab"]
 ! fb top navbar
-facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
+!facebook.com##[aria-label="Facebook"] ul li:not(:first-child)
 ! facebook-feeds-filter
-facebook.com##+js(facebook-feeds-filter)
+!facebook.com##+js(facebook-feeds-filter)
 ! >> uBlock filters - Annoyances should remove Suggested posts without a need for additional filters <<
 ! Suggested for you
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset],[aria-describedby]:not([aria-posinset])):style(height: 0 !important; overflow: hidden !important;)
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset],[aria-describedby]:not([aria-posinset])):style(height: 0 !important; overflow: hidden !important;)
 ! Unlabelled Suggested posts (with a Follow/Join buttons)
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(/Follow|Join/):upward([aria-posinset],[aria-describedby]:not([aria-posinset])):style(height: 0 !important; overflow: hidden !important;)
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])) :is(h3,h4) [role=button]:has-text(/Follow|Join/):upward([aria-posinset],[aria-describedby]:not([aria-posinset])):style(height: 0 !important; overflow: hidden !important;)
 ! Use only if you actually have these: Suggested posts with the label next to the post date
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you):style(height: 0 !important; overflow: hidden !important;)
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has-text(Suggested for you):style(height: 0 !important; overflow: hidden !important;)
 ! People You May Know
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/friends/"]):style(height: 0 !important; overflow: hidden !important;)
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/friends/"]):style(height: 0 !important; overflow: hidden !important;)
 ! Suggested groups
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/groups/discover/"]):style(height: 0 !important; overflow: hidden !important;)
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/groups/discover/"]):style(height: 0 !important; overflow: hidden !important;)
 ! Reels and short videos (English UI)
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Reels"]):style(height: 0 !important; overflow: hidden !important;)
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Reels"]):style(height: 0 !important; overflow: hidden !important;)
 ! Suggested pages
-www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Suggested pages"]):style(height: 0 !important; overflow: hidden !important;)
+!www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Suggested pages"]):style(height: 0 !important; overflow: hidden !important;)
 ! thumbnails in notifications
-www.facebook.com##.xqcrz7y.x1n2onr6.xq8finb.x1e56ztr.x1xmf6yo.xdt5ytf.x78zum5 > .x1ja2u2z.x3ajldb.x1n2onr6.x1rg5ohu > .x3ajldb > g > image
+!www.facebook.com##.xqcrz7y.x1n2onr6.xq8finb.x1e56ztr.x1xmf6yo.xdt5ytf.x78zum5 > .x1ja2u2z.x3ajldb.x1n2onr6.x1rg5ohu > .x3ajldb > g > image
 ! For the posts with Follow button
 ! Remember to turn on Allow custom filters requiring trust in "My filters" pane. 
-!#if cap_html_filtering
-||facebook.com/api/graphql/$xhr,replace=/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/{}/g,domain=web.facebook.com|www.facebook.com
-!#else
-web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/g', {}, /api/graphql)
-!#endif
+!!#if cap_html_filtering
+!||facebook.com/api/graphql/$xhr,replace=/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/{}/g,domain=web.facebook.com|www.facebook.com
+!!#else
+!web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, '/\{"brs_content_label":[^\n]+?"follow_button":\{"__typename":"CometFeedStoryFollowButtonStrategy"[^\n]+"cursor":"[^"]+"\}/g', {}, /api/graphql)
+!!#endif
 ! --- line ---
 ||lap-click.tr.line.me
 ! --- messenger ---
@@ -160,7 +160,7 @@ youtube.com##ytd-guide-section-renderer:nth-child(1)
 ! youtube left sidebar > 3rd section: MORE FROM YOUTUBE
 youtube.com##ytd-guide-section-renderer:nth-child(3)
 ! related videos on right sidebar
-youtube.com###related
+youtube.com##div#related
 ! 2nd to last youtube shorts
 youtube.com##ytd-reel-video-renderer:not(:first-of-type)
 ! remove user thumbnail img in comment section
@@ -294,6 +294,4 @@ tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
 tw.news.yahoo.com###module-mktBanner
-
-
 
