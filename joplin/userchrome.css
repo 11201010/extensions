@@ -32,11 +32,11 @@ a.list-item {
   color: #000;
 }
 /* synchronize */
-button:has(.icon-sync) {
+button.sidebar-sync-button {
   background-color: #2d6bdc;
 }
-button:has(.icon-sync):hover,
-button:has(.icon-sync):hover span {
+button.sidebar-sync-button:hover,
+button.sidebar-sync-button:hover span {
   background: #1e54b6;
   color: #fff !important;
 }
