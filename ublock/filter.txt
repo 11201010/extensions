@@ -32,6 +32,9 @@ hackmd.io##.announcement-trigger
 ! --- web.kamihq.com ---
 web.kamihq.com##.premium-required
 web.kamihq.com##tooltip[tooltip-template="You are using the free version of Kami"]
+! --- www.doubao.com ---
+www.doubao.com##.semi-modal-wrap-center.semi-modal-wrap
+www.doubao.com##.semi-modal-mask
 ! === Q&A sites ===
 ! --- reddit ---
 !reddit.com##section[aria-label*="Related"]
@@ -89,6 +92,7 @@ twmanga.com,ddmanga.com##.recommend:upward(1)
 czbooks.net##ul:has(li:has-text(工口))
 ! novel page
 czbooks.net##li:has(a:has-text(/工口|情趣/))
+czbooks.net##.style-recommend.novel-list.nav
 ! chapter page
 czbooks.net##[class*="ads"]
 ! === social media ===
@@ -294,4 +298,5 @@ tw.news.yahoo.com##.stream
 tw.news.yahoo.com##[id$="rightrailStories"]
 tw.news.yahoo.com##.sticky-sda
 tw.news.yahoo.com###module-mktBanner
+
 
