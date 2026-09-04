@@ -880,7 +880,7 @@ preset_keys:
   Return1: {label: Enter, send: Return }
   Return2: {label: ⏎, send: Return }
   Hide: {label: 隱藏, send: BACK}
-  BackSpace: {label: 退格, repeatable: true, send: BackSpace}
+  BackSpace: {label: ⌫, repeatable: true, send: BackSpace}
   space: {repeatable: false, functional: false, send: space}
   space1: {label: 空格, repeatable: false, functional: false, send: space}
   Escape: {label: Esc, send: Escape}
