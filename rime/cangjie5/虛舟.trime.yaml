@@ -38,7 +38,7 @@ style:
   key_width: 10.0 #鍵寬，佔螢幕寬的百分比
   label_text_size: 22 #標籤字號
   label_font: label.ttf #編標籤字型
-  latin_font: latin.ttf #西文字型
+  latin_font: latin.ttf #英文字型
   keyboard_height: 250 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
   keyboard_height_land: 200 #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
   preview_font: latin.ttf #按鍵提示字型
@@ -823,7 +823,7 @@ liquid_keyboard:
 android_keys:
   # 仅供编辑键盘时参考，实际不产生任何效果
   when:
-    ascii: 西文標籤
+    ascii: 英文標籤
     paging: 翻頁標籤
     has_menu: 選單標籤
     composing: 輸入狀態標籤
@@ -913,8 +913,8 @@ preset_keys:
   CommitComment: {label: 編碼, send: Control+Shift+Return}
   DeleteCandidate: {label: 刪詞, send: Control+Delete}
   # rime狀態
-  Mode_switch: {toggle: ascii_mode, send: SWITCH_CHARSET, states: [ 中文, 西文 ]}
-  Zenkaku_Hankaku: {toggle: full_shape, send: SWITCH_CHARSET, states: [ 半角, 全角 ]}
+  Mode_switch: {toggle: ascii_mode, send: SWITCH_CHARSET, states: [ 中文, 英文 ]}
+  Zenkaku_Hankaku: {toggle: full_shape, send: SWITCH_CHARSET, states: [ 半形, 全形 ]}
   Henkan: {toggle: simplification, send: SWITCH_CHARSET, states: [ 漢字, 汉字 ]}
   Charset_switch: {toggle: extended_charset, send: SWITCH_CHARSET, states: [ 常用, 增廣 ]}
   Punct_switch: {toggle: ascii_punct, send: SWITCH_CHARSET, states: [ 。，, ．， ]}
